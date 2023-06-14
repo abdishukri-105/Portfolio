@@ -18,21 +18,33 @@ const Header = () => {
                 <div className="menu">
                     <ul className="flex items-center gap-10">
                         <li>
-                            <a href="#about">About</a>
+                            <a className="text-smallTextColor font-[600]" href="#about">About</a>
                         </li>
                         <li>
-                            <a href="#services">Services</a>
+                            <a className="text-smallTextColor font-[600]" href="#services">Services</a>
                         </li>
                         <li>
-                            <a href="#portfolio">Portfolio</a>
+                            <a className="text-smallTextColor font-[600]" href="#portfolio">Portfolio</a>
                         </li>
                         <li>
-                            <a href="#contact">Contact</a>
+                            <a className="text-smallTextColor font-[600]" href="#contact">Contact</a>
                         </li>
-
                     </ul>
-    
-                </div>           
+                </div>  
+
+                {/* ===========menu end ====== */} 
+
+                {/* ===========menu right ====== */}
+                <div className="flex items-center gap-4">
+                    <button className="flex items-center gap-2 text-smallTextColor font-[600] border  border-solid border-smallTextColor py-2 px-4 rounded-[8px] max-h-[40px] hover:bg-smallTextColor hover:text-white hover:font-[500] ease-in duration-300">
+                        <i class="ri-send-plane-line"></i> let's talk
+                    </button>
+
+                    <span className="text-2xl text-smallTextColor md:hidden cursor-pointer">
+                        <i class="ri-menu-line"></i>
+                    </span>
+                </div>
+                {/* ===========menu end ====== */}
 
             </div>
         </div>
