@@ -1,4 +1,6 @@
 import heroimg from '../../assets/images/hero.svg'
+import shukri from '../../assets/images/shukri.jpg'
+import shukri2 from '../../assets/images/shukri2.jpg'
 import CountUp from 'react-countup'
 
 
@@ -57,7 +59,7 @@ const Hero = () => {
                     </p>
 
                     <div className='flex items-center gap-9 mt-14'>
-                        <span className='text-smallTextColor text-[15px] font-[600]'>
+                        <span className='text-smallTextColor text-[15px] font-[600]'> 
                             follow me:
                         </span>
                         <span>
@@ -87,8 +89,43 @@ const Hero = () => {
                             >
                               <i class="ri-instagram-line"></i>
                             </a>
-                        </span>
+                        </span> 
                     </div> 
+                </div>
+                 {/* ======= hero left end ======== */}
+                 {/* ======= hero img ======== */}
+                 <div className='basis-1/3 mt-10 sm:mt-0'>
+                     <figure className='flex  items-center justify-center'>
+                        <img className='rounded-full' src={shukri}></img>
+                     </figure>
+                 </div>
+                {/* ======= hero img end ======== */}
+                {/* ======= hero content right ======== */}
+                <div className='md:basis-1/5 flex justify-between text-center mt-10 flex-wrap gap-3 md:mt-0 md:flex-col md:justify-end md:text-end'>
+                    <div className='mb-10'>
+                        <h2 className='text-headingColor font-[700] text-[32px]'>
+                            <CountUp start={0} end={3} suffix='+'/>
+                        </h2>
+                        <h4 className='text-headingColor font-[600] text-[18px]'>years of experience</h4>
+                    </div>
+                    <div className='mb-10'>
+                        <h2 className='text-headingColor font-[700] text-[32px]'>
+                            <CountUp start={0} end={100} duration={2} suffix='%'/>
+                        </h2>
+                        <h4 className='text-headingColor font-[600] text-[18px]'>success Rate</h4>
+                    </div>
+                    <div className='mb-10'>
+                        <h2 className='text-headingColor font-[700] text-[32px]'>
+                            <CountUp start={0} end={150} duration={2} suffix='+'/>
+                        </h2>
+                        <h4 className='text-headingColor font-[600] text-[18px]'>Happy Clients</h4>
+                    </div>
+                    <div className='mb-10'>
+                        <h2 className='text-headingColor font-[700] text-[32px]'>
+                            <CountUp start={0} end={100} duration={2} suffix='+'/>
+                        </h2>
+                        <h4 className='text-headingColor font-[600] text-[18px]'>projects Completed</h4>
+                    </div>
                 </div>
             </div>
         </div>
