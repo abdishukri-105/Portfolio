@@ -64,28 +64,28 @@ const Hero = () => {
                         </span>
                         <span>
                             <a
-                             href='#github' className='text-smallTextColor text-[18px] font-[600]'
+                             href='https://github.com/abdishukri-105' target='_blank' className='text-smallTextColor text-[18px] font-[600]'
                             >
                               <i class="ri-github-fill"></i>
                             </a>
                         </span>
                         <span>
                             <a
-                             href='#linkedIn' className='text-smallTextColor text-[18px] font-[600]'
+                             href='https://www.linkedin.com/in/abdishukri-mohamed/' target='_blank' className='text-smallTextColor text-[18px] font-[600]'
                             >
                               <i class="ri-linkedin-line"></i>
                             </a>
                         </span>
                         <span>
                             <a
-                             href='#twitter' className='text-smallTextColor text-[18px] font-[600]'
+                             href='https://twitter.com/AbdishukriMoh18' target='_blank'  className='text-smallTextColor text-[18px] font-[600]'
                             >
                               <i class="ri-twitter-line"></i>
                             </a>
                         </span>
                         <span>
                             <a
-                             href='#instagram' className='text-smallTextColor text-[18px] font-[600]'
+                             href='https://www.instagram.com/__abdishukri_/'  target='_blank' className='text-smallTextColor text-[18px] font-[600]'
                             >
                               <i class="ri-instagram-line"></i>
                             </a>
@@ -101,7 +101,7 @@ const Hero = () => {
                  </div>
                 {/* ======= hero img end ======== */}
                 {/* ======= hero content right ======== */}
-                <div className='md:basis-1/5 flex justify-between text-center mt-10 flex-wrap gap-3 md:mt-0 md:flex-col md:justify-end md:text-end'>
+                {/* <div className='md:basis-1/5 flex justify-between text-center mt-10 flex-wrap gap-3 md:mt-0 md:flex-col md:justify-end md:text-end'>
                     <div className='mb-10'>
                         <h2 className='text-headingColor font-[700] text-[32px]'>
                             <CountUp start={0} end={3} suffix='+'/>
@@ -116,17 +116,17 @@ const Hero = () => {
                     </div>
                     <div className='mb-10'>
                         <h2 className='text-headingColor font-[700] text-[32px]'>
-                            <CountUp start={0} end={150} duration={2} suffix='+'/>
+                            <CountUp start={0} end={50} duration={2} suffix='+'/>
                         </h2>
                         <h4 className='text-headingColor font-[600] text-[18px]'>Happy Clients</h4>
                     </div>
                     <div className='mb-10'>
                         <h2 className='text-headingColor font-[700] text-[32px]'>
-                            <CountUp start={0} end={100} duration={2} suffix='+'/>
+                            <CountUp start={0} end={50} duration={2} suffix='+'/>
                         </h2>
                         <h4 className='text-headingColor font-[600] text-[18px]'>projects Completed</h4>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
       </section>
