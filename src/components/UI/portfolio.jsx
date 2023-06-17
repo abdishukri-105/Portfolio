@@ -1,16 +1,24 @@
 import data from "../../assets/data/portfolioData"
 import {useState, useEffect} from "react"
+import Modal from "./Modal"
 
 const Portfolio = () => {
 
     const [nextItems, setNextItems] = useState(6)
     const [portfolios, setPortfolios] = useState(data)
     const [selectTab, setSelectTab] = useState("all")
-
+    const [showModal, setShowModal] = useState(false)
+    const [activeID, setActiveID] = useState(null)
+ 
     const loadMoreHandler = () => {
         setNextItems(prev => prev + 3)
     }
+     
+    const showModalHandler = id => {
+        setShowModal(true)
+        setActiveID(id)
 
+    }
 
     useEffect(() =>{
 
