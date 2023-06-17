@@ -17,7 +17,6 @@ const Portfolio = () => {
     const showModalHandler = id => {
         setShowModal(true)
         setActiveID(id)
-
     }
 
     useEffect(() =>{
@@ -67,7 +66,8 @@ const Portfolio = () => {
 
                             <div className="w-full h-full bg-primaryColor bg-opacity-60 absolute top-0 left-0 z-[5] hidden group-hover:block">
                                 <div className="w-full h-full flex items-center justify-center">
-                                    <button className="text-white bg-headingColor hover:bg-smallColor py-2 px-4 rounded-[8px] font-[500] ease-in duration-200">See Details</button>
+                                    <button onClick={() => showModalHandler(portfolio.id)} 
+                                    className="text-white bg-headingColor hover:bg-smallColor py-2 px-4 rounded-[8px] font-[500] ease-in duration-200">See Details</button>
                                 </div>
                             </div>
                         </div>
@@ -84,6 +84,10 @@ const Portfolio = () => {
                  )}
             </div>
         </div>
+
+        {
+          showModal   && <Modal  setShowModal={setShowModal} activeID={activeID}/>
+        }
     </section>
 }
  
