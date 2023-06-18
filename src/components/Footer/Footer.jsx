@@ -1,4 +1,8 @@
+
 const Footer = () => {
+
+    
+
     return <footer className="bg-[#12141e] pt-12">
 
         {/* ========= footer top ========= */}
@@ -54,9 +58,48 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
+            
+            
+            <div >
+                    <ul className="flex items-center justify-center gap-10 mt-10">
+                        <li>
+                            <a className="text-gray-400 font-[600]" href="#about">About</a>
+                        </li>
+                        <li>
+                            <a className="text-gray-400 font-[600]" href="#services">Services</a>
+                        </li>
+                        <li>
+                            <a className="text-gray-400 font-[600]" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li>
+                            <a className="text-gray-400 font-[600]" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+            </div>  
+
         </div>
 
         {/* ======= footer top end ======== */}
+
+        {/* ======= footer bottom ======== */}
+        <div className="bg-[#1b1e29] py-5 mt-14">
+            <div className="container">
+                <div className="flex items-center justify-center sm:justify-between">
+
+                    <div className="hidden sm:block">
+                        <div className="flex items-center gap-[10px]">
+                           <span className="w-[35px] h-[35px] rounded-full bg-[#2b2d33] text-white font-[500] text-[18px] flex items-center justify-center ">AM</span>
+                           <div className="leading-[20px] ">
+                             <h2 className="text-gray-200 font-[500] text-[18px]">Abdishukri</h2>
+                             <p className="text-gray-400 text-[14px] font-[500]">Mohamed</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="text-gray-400 text-[14px]">    &copy; 2023:  Abdishukri Mohamed</div>
+                </div>
+            </div>
+        </div>
 
 
     </footer>
