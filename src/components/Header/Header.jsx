@@ -1,5 +1,31 @@
+import {useRef, useEffect} from "react"
+
+
+
+
 const Header = () => {
-    return <header className="w-full h-[80px] leading-[80px] flex items-center">
+
+    const headerRef = useRef(null)
+     
+    const stickyHeaderFunc = () => {
+        window.addEventListener("scroll", () => {
+            if(document.body.scrollTop > 80 || document.documentElement.scrollTop > 80){
+                headerRef.current.classList.add("sticky_header")
+            }else{
+                headerRef.current.classList.remove("sticky_header")
+            }
+        })
+    }
+
+
+    useEffect(() =>{
+       stickyHeaderFunc()
+
+       return window.removeEventListener("scroll",stickyHeaderFunc)
+    },[])
+
+
+    return <header ref={headerRef} className="w-full h-[80px] leading-[80px] flex items-center">
         <div className="container">
             <div className="flex items-center justify-between">
                 {/* logo */}
