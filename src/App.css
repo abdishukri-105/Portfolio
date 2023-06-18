@@ -49,7 +49,7 @@ section {
     z-index: 100;
     display: none;
   }
-}
+
 
 .menu ul{
   width: 15rem;
@@ -63,9 +63,12 @@ section {
   line-height: 30px;
   justify-content: center;
   align-items: center;
+
 }
 
 
 .show_menu {
   display: block;
+}
+
 }
