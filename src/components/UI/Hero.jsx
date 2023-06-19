@@ -53,9 +53,8 @@ const Hero = () => {
                     <span>
                         <i class="ri-apps-2-line"></i>
                     </span>    
-                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                     Architecto omnis hic quasi magni voluptatum magnam? 
-                     Numquam veniam unde doloribus ipsum ipsam dolor dolorum aliquam sed!
+                    A Full Stack Developer experienced in React and Rails. BScIT graduate and Moringa School alumni, currently studying AWS Cloud.
+
                     </p>
 
                     <div className='flex items-center gap-9 mt-14'>

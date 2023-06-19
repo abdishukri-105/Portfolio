@@ -14,7 +14,7 @@ const Services = () => {
                         what do i help
                     </h2>
                     <p className="lg:max-w-[600px] lg:mx-auto text-headingColor font-[500] text-[16px] leading-7">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur sunt quia distinctio libero laboriosam numquam. Reprehenderit id consectetur quibusdam non tempore. Sequi architecto inventore consectetur?
+                    I deliver quality products with effective communication and strong time management skills. Explore how my expertise can benefit your projects
                     </p>
                 </div>
 
