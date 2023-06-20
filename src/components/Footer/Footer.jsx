@@ -33,25 +33,25 @@ const Footer = () => {
                         </span>
 
                         <span className="w-[35px] h-[35px] bg-[#2b2d33] p-1  rounded-[50px] cursor-pointer text-center">
-                            <a href="#github" className="text-gray-300 font-[500] text-[18px]">
+                            <a href="https://github.com/abdishukri-105"  target='_blank' className="text-gray-300 font-[500] text-[18px]">
                                 <i class="ri-github-line"></i>
                             </a>
                         </span>
 
                         <span className="w-[35px] h-[35px] bg-[#2b2d33] p-1  rounded-[50px] cursor-pointer text-center">
-                            <a href="#github" className="text-gray-300 font-[500] text-[18px]">
+                            <a href="https://www.linkedin.com/in/abdishukri-mohamed/"   target='_blank' className="text-gray-300 font-[500] text-[18px]">
                                <i class="ri-linkedin-line"></i>
                             </a>
                         </span>
 
                         <span className="w-[35px] h-[35px] bg-[#2b2d33] p-1  rounded-[50px] cursor-pointer text-center">
-                            <a href="#github" className="text-gray-300 font-[500] text-[18px]">
+                            <a href="https://twitter.com/AbdishukriMoh18"  target='_blank' className="text-gray-300 font-[500] text-[18px]">
                                <i class="ri-twitter-line"></i>
                             </a>
                         </span>
 
                         <span className="w-[35px] h-[35px] bg-[#2b2d33] p-1  rounded-[50px] cursor-pointer text-center">
-                            <a href="#github" className="text-gray-300 font-[500] text-[18px]">
+                            <a href="https://www.instagram.com/__abdishukri_/"  target='_blank' className="text-gray-300 font-[500] text-[18px]">
                                <i class="ri-instagram-line"></i>
                             </a>
                         </span>
