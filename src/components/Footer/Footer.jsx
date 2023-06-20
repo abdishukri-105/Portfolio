@@ -17,14 +17,14 @@ const Footer = () => {
                        href="#contact">
                        <button className='bg-primaryColor text-white font-[500]  flex items-center gap-2
                         hover:bg-smallTextColor ease-in duration-300 py-2 px-4 rounded-[8px]'>
-                            <i class='ri-mail-line'> Hire me</i>
+                            <i class='ri-mail-line'></i>Hire me
                         </button> 
                     </a> 
                 </div>
 
                 <div className="w-full sm:w-1/2">
                     <p className="text-gray-300 leading-7 mt-4 sm:mt-0">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi veniam architecto adipisci beatae quos consectetur ipsum officiis facilis vitae molestiae.
+                         Let's Innovate Together: As a Full Stack Developer with expertise in frontend, backend, and AWS Cloud, I'm ready to bring your ideas to life. Connect with me now to discuss your project and embark on a journey of innovation
                     </p>
 
                     <div className="flex items-center gap-4 flex-wrap md:gap-8 mt-10">
@@ -40,19 +40,19 @@ const Footer = () => {
 
                         <span className="w-[35px] h-[35px] bg-[#2b2d33] p-1  rounded-[50px] cursor-pointer text-center">
                             <a href="#github" className="text-gray-300 font-[500] text-[18px]">
-                                <i class="ri-github-line"></i>
+                               <i class="ri-linkedin-line"></i>
                             </a>
                         </span>
 
                         <span className="w-[35px] h-[35px] bg-[#2b2d33] p-1  rounded-[50px] cursor-pointer text-center">
                             <a href="#github" className="text-gray-300 font-[500] text-[18px]">
-                                <i class="ri-github-line"></i>
+                               <i class="ri-twitter-line"></i>
                             </a>
                         </span>
 
                         <span className="w-[35px] h-[35px] bg-[#2b2d33] p-1  rounded-[50px] cursor-pointer text-center">
                             <a href="#github" className="text-gray-300 font-[500] text-[18px]">
-                                <i class="ri-github-line"></i>
+                               <i class="ri-instagram-line"></i>
                             </a>
                         </span>
                     </div>

@@ -36,7 +36,7 @@ const Hero = () => {
                        href="#contact">
                        <button className='bg-primaryColor text-white font-[500]  flex items-center gap-2
                        hover:bg-smallTextColor ease-in duration-300 py-2 px-4 rounded-[8px]'>
-                        <i class='ri-mail-line'>Hire me</i>
+                        <i class='ri-mail-line'></i>Hire me
                         </button> 
                     </a>    
                     <a

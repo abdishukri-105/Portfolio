@@ -14,7 +14,7 @@ const Services = () => {
                         what do i help
                     </h2>
                     <p className="lg:max-w-[600px] lg:mx-auto text-headingColor font-[500] text-[16px] leading-7">
-                    I deliver quality products with effective communication and strong time management skills. Explore how my expertise can benefit your projects
+                         I deliver quality products with effective communication and strong time management skills. Explore how my expertise can benefit your projects
                     </p>
                 </div>
 
@@ -35,7 +35,7 @@ const Services = () => {
                                                 <h3 className="text-primaryColor font-[700] mb-3 group-hover:text-white group-hover:font-[600] text-2xl">Frontend Development</h3>
 
                                                 <p className="text-[15px] text-smallTextColor group-hover:text-white group-hover:font-[500] ">
-                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos atque esse sequi. 
+                                                        I create visually appealing websites with seamless user experiences to enhance your online presence
                                                 </p>
                                             </div>
                                         </div>
@@ -60,7 +60,7 @@ const Services = () => {
                                                 <h3 className="text-primaryColor font-[700] mb-3 group-hover:text-white group-hover:font-[600] text-2xl">Backend Development</h3>
 
                                                 <p className="text-[15px] text-smallTextColor group-hover:text-white group-hover:font-[500] ">
-                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos atque esse sequi. 
+                                                I design and implement efficient backend systems, ensuring seamless data management and smooth operations for your website or application
                                                 </p>
                                             </div>
                                         </div>
@@ -85,7 +85,7 @@ const Services = () => {
                                                 <h3 className="text-primaryColor font-[700] mb-3 group-hover:text-white group-hover:font-[600] text-2xl">UX/UI DESIGN</h3>
 
                                                 <p className="text-[15px] text-smallTextColor group-hover:text-white group-hover:font-[500] ">
-                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos atque esse sequi.
+                                                I create intuitive and visually appealing user experiences that captivate and engage your audience. Through thoughtful design and seamless interactions, I enhance the usability and aesthetics of your website or application.
                                                 </p>
                                             </div>
                                         </div>
@@ -114,7 +114,7 @@ const Services = () => {
                                                 <h3 className="text-primaryColor font-[700] mb-3 group-hover:text-white group-hover:font-[600] text-2xl">Apps Development</h3>
 
                                                 <p className="text-[15px] text-smallTextColor group-hover:text-white group-hover:font-[500] ">
-                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos atque esse sequi. 
+                                                I create robust and user-friendly applications that deliver seamless experiences across devices.
                                                 </p>
                                             </div>
                                         </div>
