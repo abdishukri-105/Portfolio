@@ -1,4 +1,47 @@
+import emailjs from 'emailjs-com';
+import {useState} from 'react'
+
 const Contact = () => {
+
+    const [formValues, setFormValues] = useState({
+        name: '',
+        email: '',
+        subject: '',
+        message: '',
+      });
+    
+      const [message, setMessage] = useState(null);
+    
+      const handleChange = (e) => {
+        setFormValues({ ...formValues, [e.target.name]: e.target.value });
+      };
+    
+      const handleSubmit = (e) => {
+        e.preventDefault();
+    
+        const serviceId = 'service_email';
+        const templateId = 'template_6539uxg';
+        const userId = 'ectIXcjfg9xRxCqA7';
+    
+        emailjs
+          .send(serviceId, templateId, formValues, userId)
+          .then((response) => {
+            console.log('SUCCESS', response.status, response.text);
+            setFormValues({
+              name: '',
+              email: '',
+              subject: '',
+              message: '',
+            });
+            setMessage('Thank you for contacting me. I will get back to you as soon as possible.');
+          })
+          .catch((err) => {
+            console.log('FAILED:', err);
+            setMessage('Sorry, an error occurred. Please try again later.');
+          });
+      };
+    
+
     return <section id="contact" className="pb-16">
          <div className="container">
              <h2 className="text-headingColor font-[700] text-[2.5rem] mb-8">
@@ -17,21 +60,32 @@ const Contact = () => {
                 </div>
 
                 <div className="w-full mt-8 md:mt-0 md:w-1/2 sm:h-[450px] lg:flex items-center bg-indigo-100 px-4 lg:px-8 py-8">
-                   <form action="" className="w-full">
+                   <form  onSubmit={handleSubmit} className="w-full">
                      <div className="mb-5">
-                        <input type="text" placeholder="Enter your name " className="w-full p-3 focus:outline-none rounded-[5px]" />
+                        <input 
+                              value={formValues.name}  
+                              onChange={handleChange}
+                              type="text" placeholder="Enter your name " className="w-full p-3 focus:outline-none rounded-[5px]" />
                      </div>
 
                      <div className="mb-5">
-                        <input type="text" placeholder="Enter your email " className="w-full p-3 focus:outline-none rounded-[5px]" />
+                        <input
+                            value={formValues.email}
+                            onChange={handleChange}
+                            type="text" placeholder="Enter your email " className="w-full p-3 focus:outline-none rounded-[5px]" />
                      </div>
 
                      <div className="mb-5">
-                        <input type="text" placeholder="Enter your subject " className="w-full p-3 focus:outline-none rounded-[5px]" />
+                        <input 
+                               value={formValues.subject}
+                               onChange={handleChange}
+                               type="text" placeholder="Enter your subject " className="w-full p-3 focus:outline-none rounded-[5px]" />
                      </div>
 
                      <div className="mb-5">
                         <textarea type="text" 
+                             value={formValues.message}
+                             onChange={handleChange}
                              placeholder=" write your message "
                              rows={3}
                              className="w-full p-3 focus:outline-none rounded-[5px]" />
