@@ -3,8 +3,8 @@ import { useState } from 'react';
 
 const Contact = () => {
   const [formValues, setFormValues] = useState({
-    name: '',
-    email: '',
+    user_name: '',
+    user_email: '',
     subject: '',
     message: '',
   });
@@ -27,8 +27,8 @@ const Contact = () => {
       .then((response) => {
         console.log('SUCCESS', response.status, response.text);
         setFormValues({
-          name: '',
-          email: '',
+          user_name: '',
+          user_email: '',
           subject: '',
           message: '',
         });
@@ -61,10 +61,10 @@ const Contact = () => {
               {message && <p>{message}</p>}
               <div className="mb-5">
                 <input
-                  value={formValues.name}
+                  value={formValues.user_name}
                   onChange={handleChange}
                   type="text"
-                  name="name"
+                  name="user_name"
                   placeholder="Enter your name"
                   className="w-full p-3 focus:outline-none rounded-[5px]"
                 />
@@ -72,10 +72,10 @@ const Contact = () => {
 
               <div className="mb-5">
                 <input
-                  value={formValues.email}
+                  value={formValues.user_email}
                   onChange={handleChange}
                   type="text"
-                  name="email"
+                  name="user_email"
                   placeholder="Enter your email"
                   className="w-full p-3 focus:outline-none rounded-[5px]"
                 />
