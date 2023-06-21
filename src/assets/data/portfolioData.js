@@ -1,5 +1,5 @@
-import portfolioImg01 from "../images/portfolio-01.jpg";
-import portfolioImg02 from "../images/portfolio-02.jpg";
+import portfolioImg01 from "../images/Beautybliss.png";
+import portfolioImg02 from "../images/HAHA-HUB.png";
 import portfolioImg03 from "../images/portfolio-03.jpg";
 import portfolioImg04 from "../images/portfolio-04.jpg";
 import portfolioImg05 from "../images/portfolio-05.jpg";
@@ -19,7 +19,7 @@ const portfolios = [
   },
   {
     id: "02",
-    imgUrl: portfolioImg04,
+    imgUrl: portfolioImg02,
     category: "web design",
     title: "'Meme Generator'",
     description:
@@ -29,7 +29,7 @@ const portfolios = [
   },
   {
     id: "03",
-    imgUrl: portfolioImg02,
+    imgUrl: portfolioImg03,
     category: "web design",
     title: "Library app",
     description:
