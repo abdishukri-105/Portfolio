@@ -48,43 +48,43 @@ const Hero = () => {
                     <p 
                       data-aos="fade-left"
                       data-aos-duration="1500"
-                      className='flex gap-2 text-headingColor mt-14 font-[500] text-[15px] leading-7 sm:pl-14 sm:pr-10'
+                      className='flex gap-2 text-headingColor mt-6 font-[500] text-[15px] leading-7 sm:pl-14 sm:pr-10'
                     >
                     <span>
                         <i class="ri-apps-2-line"></i>
                     </span>    
-                    A Full Stack Developer experienced in React and Rails. BScIT graduate and Moringa School alumni, currently studying AWS Cloud.
+                        A Full Stack Developer experienced in React and Rails. BScIT graduate and Moringa School alumni, currently studying AWS Cloud.
 
                     </p>
 
-                    <div className='flex items-center gap-9 mt-14'>
-                        <span className='text-smallTextColor text-[15px] font-[600]'> 
+                    <div className='flex items-center gap-9 mt-6'>
+                        <span className='text-smallTextColor text-[19px] font-[600]'> 
                             follow me:
                         </span>
                         <span>
                             <a
-                             href='https://github.com/abdishukri-105' target='_blank' className='text-smallTextColor text-[18px] font-[600]'
+                             href='https://github.com/abdishukri-105' target='_blank' className='text-smallTextColor text-[20px] font-[600]'
                             >
                               <i class="ri-github-fill"></i>
                             </a>
                         </span>
                         <span>
                             <a
-                             href='https://www.linkedin.com/in/abdishukri-mohamed/' target='_blank' className='text-smallTextColor text-[18px] font-[600]'
+                             href='https://www.linkedin.com/in/abdishukri-mohamed/' target='_blank' className='text-smallTextColor text-[20px] font-[600]'
                             >
                               <i class="ri-linkedin-line"></i>
                             </a>
                         </span>
                         <span>
                             <a
-                             href='https://twitter.com/AbdishukriMoh18' target='_blank'  className='text-smallTextColor text-[18px] font-[600]'
+                             href='https://twitter.com/AbdishukriMoh18' target='_blank'  className='text-smallTextColor text-[20px] font-[600]'
                             >
                               <i class="ri-twitter-line"></i>
                             </a>
                         </span>
                         <span>
                             <a
-                             href='https://www.instagram.com/__abdishukri_/'  target='_blank' className='text-smallTextColor text-[18px] font-[600]'
+                             href='https://www.instagram.com/__abdishukri_/'  target='_blank' className='text-smallTextColor text-[20px] font-[600]'
                             >
                               <i class="ri-instagram-line"></i>
                             </a>

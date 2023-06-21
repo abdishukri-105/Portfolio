@@ -150,4 +150,39 @@ const portfolios = [
   },
 ];
 
+
+// const projects = [
+//   {
+//     image: beautybliss,
+//     title: 'Beauty Bliss',
+//     description: 'An E-commerce application built with Rails API and React',
+//     websiteLink: 'https://beauty-bliss-ul2a.vercel.app/',
+//   },
+//   {
+//     image: Hahahub,
+//     title: 'Meme Generator',
+//     description: 'Rails and react meme generator app for moringa school project ',
+//     websiteLink: 'https://haha-hub.vercel.app/',
+//   },
+//   {
+//     image: READRIOT,
+//     title: 'Library app',
+//     description: 'React application that utilizes google books api',
+//     websiteLink: 'https://read-riot.vercel.app/',
+//   },
+//   {
+//     image: article254,
+//     title: 'blog page',
+//     description: 'article web application Built with RUBY and React ',
+//     websiteLink: 'https://article254.vercel.app/',
+//   },
+//   {
+//     image: loops,
+//     title: 'Loopstudios Landing Page',
+//     description: 'This is a small project that I did from Frontend Mentor',
+//     websiteLink: 'https://example.com/loopstudios-demo',
+//   }
+// ];
+
+
 export default portfolios;
