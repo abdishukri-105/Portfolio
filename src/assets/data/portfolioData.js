@@ -1,9 +1,9 @@
 import portfolioImg01 from "../images/Beautybliss.png";
 import portfolioImg02 from "../images/HAHA-HUB.png";
-import portfolioImg03 from "../images/portfolio-03.jpg";
-import portfolioImg04 from "../images/portfolio-04.jpg";
-import portfolioImg05 from "../images/portfolio-05.jpg";
-import portfolioImg06 from "../images/portfolio-06.jpg";
+import portfolioImg03 from "../images/e-commerce-screenshot.png";
+import portfolioImg04 from "../images/article254.png";
+import portfolioImg05 from "../images/loops.jpg";
+import portfolioImg06 from "../images/desktop-preview.jpg";
 import portfolioImg07 from "../images/portfolio-07.jpg";
 
 const portfolios = [
@@ -39,7 +39,7 @@ const portfolios = [
   },
   {
     id: "04",
-    imgUrl: portfolioImg05,
+    imgUrl: portfolioImg04,
     category: "Web Design",
     title: "blog page",
     description:
@@ -49,7 +49,7 @@ const portfolios = [
   },
   {
     id: "05",
-    imgUrl: portfolioImg03,
+    imgUrl: portfolioImg05,
     category: "Web Design",
     title: "Loopstudios Landing Page",
     description:
@@ -62,10 +62,10 @@ const portfolios = [
     id: "06",
     imgUrl: portfolioImg06,
     category: "Ux",
-    title: "Online Therapy Website",
+    title: "Credit card information",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
+    technologies: ["HTML", "CSS", "javascript"],
     siteUrl: "#",
   },
   {
