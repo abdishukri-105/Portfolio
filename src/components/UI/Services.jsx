@@ -101,7 +101,7 @@ const Services = () => {
 
                              {/* ====== right card ===== */}
 
-                             <div className="mt-6 sm:mt-0 sm:mb-12">
+                             {/* <div className="mt-6 sm:mt-0 sm:mb-12">
                                 <div className="flex items-center flex-col sm:flex-row">
 
                                     <div className="flex justify-end w-full mx-auto items-center">
@@ -126,7 +126,7 @@ const Services = () => {
                                         </figure>
                                     </div>
                                 </div>
-                             </div>
+                             </div> */}
 
                         </div> 
                     </div>
