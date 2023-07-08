@@ -1,6 +1,6 @@
 import portfolioImg01 from "../images/Beautybliss.png";
 import portfolioImg02 from "../images/HAHA-HUB.png";
-import portfolioImg03 from "../images/e-commerce-screenshot.png";
+import portfolioImg03 from "../images/read riot.png";
 import portfolioImg04 from "../images/article254.png";
 import portfolioImg05 from "../images/loops.jpg";
 import portfolioImg06 from "../images/desktop-preview.jpg";
