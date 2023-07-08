@@ -26,6 +26,19 @@ const Hero = () => {
                        Software Developer
                     </h1>
 
+                  
+                    <p 
+                      data-aos="fade-left"
+                      data-aos-duration="1500"
+                      className='flex gap-2 text-headingColor mt-6 font-[500] text-[15px] leading-7 sm:pl-14 sm:pr-10'
+                    >
+                    {/* <span>
+                        <i class="ri-apps-2-line"></i>
+                    </span>     */}
+                     Full Stack Developer, armed with a BScIT degree from JKUAT and a Moringa School alumni, currently harnessing the power of AWS Cloud at ALX Africa. Passionate about crafting top-notch web applications, embracing industry trends, and collaborating to achieve greatness in the cloud and development realms. Let's build something extraordinary together!
+
+                    </p>
+
                     <div 
                         data-aos="fade-up"
                         data-aos-duration="1800"
@@ -45,17 +58,6 @@ const Hero = () => {
                         see portfolio
                     </a>
                     </div>
-                    <p 
-                      data-aos="fade-left"
-                      data-aos-duration="1500"
-                      className='flex gap-2 text-headingColor mt-6 font-[500] text-[15px] leading-7 sm:pl-14 sm:pr-10'
-                    >
-                    <span>
-                        <i class="ri-apps-2-line"></i>
-                    </span>    
-                        A Full Stack Developer experienced in React and Rails. BScIT graduate and Moringa School alumni, currently studying AWS Cloud.
-
-                    </p>
 
                     <div className='flex items-center gap-9 mt-6'>
                         <span className='text-smallTextColor text-[19px] font-[600]'> 
