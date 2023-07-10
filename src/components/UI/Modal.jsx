@@ -37,16 +37,19 @@ const Modal = ({activeID, setShowModal}) => {
                     }
                 </div>
                 
-                <a href={portfolio.siteUrl}>
-                    <button className="bg-primaryColor text-white py-2 px-4 my-8  rounded-[8px] font-[500] hover:bg-headingColor ease-in  duration-300">
-                        Live Site
-                    </button>
-                </a>
+               
              </div>
+            <div className=" ">
+                <a href={portfolio.siteUrl}>
+                        <button className="bg-primaryColor text-white py-2 px-4 my-8  rounded-[8px] font-[500] hover:bg-headingColor ease-in  duration-300">
+                            Live Site
+                        </button>
+                    </a>
 
-             <button onClick={() => setShowModal(false)} className="bg-primaryColor rounded-[8px] text-white py-2 px-4  absolute bottom-[3.6rem] hover:bg-headingColor right-[1.7rem] ease-in duration-300 text-[15px] flex items-center justify-center  leading-0 cursor-pointer ">
-                close
-             </button>
+                <button onClick={() => setShowModal(false)} className="bg-primaryColor rounded-[8px] text-white py-2 px-4  absolute bottom-[3.4rem] hover:bg-headingColor right-[1.7rem] ease-in duration-300 text-[15px] flex items-center justify-center  leading-0 cursor-pointer ">
+                    close
+                </button>
+            </div>
            </div>
         </div>
     );

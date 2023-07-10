@@ -82,7 +82,7 @@ const Footer = () => {
         {/* ======= footer top end ======== */}
 
         {/* ======= footer bottom ======== */}
-        <div className="bg-[#1b1e29] py-5 mt-14">
+        <div className="bg-[#1b1e29] py-5 mt-10">
             <div className="container">
                 <div className="flex items-center justify-center sm:justify-between">
 

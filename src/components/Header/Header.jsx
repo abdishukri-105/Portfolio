@@ -55,6 +55,7 @@ const Header = () => {
                            {/* ===========menu start ====== */}
 
                 <div className="menu" ref={menuRef} onClick={toggleMenu}>
+                   
                     <ul className="flex items-center gap-10">
                         <li>
                             <a onClick={handleClick} className="text-smallTextColor font-[600]" href="#about">About</a>
@@ -69,6 +70,7 @@ const Header = () => {
                             <a onClick={handleClick}  className="text-smallTextColor font-[600]" href="#contact">Contact</a>
                         </li>
                     </ul>
+                   
                 </div>  
 
                 {/* ===========menu end ====== */} 

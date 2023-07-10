@@ -22,7 +22,7 @@ const Hero = () => {
                        data-aos="fade-up"
                        data-aos-duration="1500"
                        className='text-headingColor font-[800] text-[1.8rem] sm:text-[40px] leading-[35px] sm:leading-[46px] mt-5'
-                       > I'm Abdishukri <br />
+                       > I'm Abdishukri Mohamed <br />
                        Software Developer
                     </h1>
 
@@ -30,12 +30,15 @@ const Hero = () => {
                     <p 
                       data-aos="fade-left"
                       data-aos-duration="1500"
-                      className='flex gap-2 text-headingColor mt-6 font-[500] text-[15px] leading-7 sm:pl-14 sm:pr-10'
+                      className='flex gap-2 text-headingColor mt-6 font-[500] text-[15px] leading-7 sm:pl-0 sm:pr-10'
                     >
                     {/* <span>
                         <i class="ri-apps-2-line"></i>
                     </span>     */}
-                     Full Stack Developer, armed with a BScIT degree from JKUAT and a Moringa School alumni, currently harnessing the power of AWS Cloud at ALX Africa. Passionate about crafting top-notch web applications, embracing industry trends, and collaborating to achieve greatness in the cloud and development realms. Let's build something extraordinary together!
+                     Full Stack Developer, armed with a BScIT degree from JKUAT and a Moringa School alumni, 
+                     currently harnessing the power of AWS Cloud at ALX Africa. Passionate about crafting 
+                     top-notch web applications, embracing industry trends, and collaborating to achieve 
+                     greatness in the cloud and development realms. Let's build something extraordinary together
 
                     </p>
 
@@ -61,7 +64,7 @@ const Hero = () => {
 
                     <div className='flex items-center gap-9 mt-6'>
                         <span className='text-smallTextColor text-[19px] font-[600]'> 
-                            follow me:
+                      
                         </span>
                         <span>
                             <a
