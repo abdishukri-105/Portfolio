@@ -23,7 +23,7 @@ const Hero = () => {
                        data-aos-duration="1500"
                        className='text-headingColor font-[800] text-[1.8rem] sm:text-[40px] leading-[35px] sm:leading-[46px] mt-5'
                        > I'm Abdishukri Mohamed <br />
-                       Software Developer
+                       Cloud Developer/Architect
                     </h1>
 
                   
@@ -35,7 +35,7 @@ const Hero = () => {
                     {/* <span>
                         <i class="ri-apps-2-line"></i>
                     </span>     */}
-                     Full Stack Developer, armed with a BScIT degree from JKUAT and a Moringa School alumni, 
+                     cloud Developer/architect, armed with a BScIT degree from JKUAT and a Moringa School alumni, 
                      currently harnessing the power of AWS Cloud at ALX Africa. Passionate about crafting 
                      top-notch web applications, embracing industry trends, and collaborating to achieve 
                      greatness in the cloud and development realms. Let's build something extraordinary together

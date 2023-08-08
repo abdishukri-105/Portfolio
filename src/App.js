@@ -7,6 +7,7 @@ import "./App.css";
 import Services from "./components/UI/Services";
 import Portfolio from "./components/UI/portfolio";
 import Contact from "./components/UI/Contact";
+import About from "./components/UI/About";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
   <Header/>
   <main>
    <Hero />
+   <About />
    <Services />
    <Portfolio />
    <Contact />
