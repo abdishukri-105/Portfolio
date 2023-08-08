@@ -8,6 +8,7 @@ import Services from "./components/UI/Services";
 import Portfolio from "./components/UI/portfolio";
 import Contact from "./components/UI/Contact";
 
+
 function App() {
   useEffect(() => {
     Aos.init();
@@ -20,6 +21,7 @@ function App() {
    <Services />
    <Portfolio />
    <Contact />
+   
   </main>
   <Footer/>
   </>
