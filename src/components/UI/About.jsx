@@ -21,6 +21,8 @@ const About = () => {
     <p className="mb-4">
         I am enthusiastic about exploring new opportunities and collaborating on impactful projects. If you're seeking a dedicated and driven IT professional to add value to your team, I'd be excited to connect and discuss potential partnerships. Thank you for considering my expertise. Let's make a difference together!
     </p>
+
+    <p>see my pitch   <a className="underline text-black" target="_blank" href="https://www.loom.com/share/52a438f35cea4870bf2d3c8df5bd9d9b?sid=9a3904dc-3ce4-4e11-9e07-01e0729f23f5">  video</a></p>
 </div>
 
             </div>

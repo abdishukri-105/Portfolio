@@ -10,6 +10,7 @@ import Contact from "./components/UI/Contact";
 import About from "./components/UI/About";
 
 
+
 function App() {
   useEffect(() => {
     Aos.init();

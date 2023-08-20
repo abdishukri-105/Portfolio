@@ -34,7 +34,7 @@ const Services = () => {
                                             <div data-aos='fade-right' data-aos-duration='1200' className="bg-white p-4 rounded shadow group hover:bg-primaryColor  cursor-pointer ease-in duration-150">
                                                 <h3 className="text-primaryColor font-[700] mb-3 group-hover:text-white group-hover:font-[600] text-2xl">Frontend Development</h3>
 
-                                                <p className="text-[15px] text-smallTextColor group-hover:text-white group-hover:font-[500] ">
+                                                <p className="text-[15px] text-smallTextColor group-hover:text-white group-hover:  ">
                                                         I create visually appealing websites with seamless user experiences to enhance your online presence
                                                 </p>
                                             </div>
