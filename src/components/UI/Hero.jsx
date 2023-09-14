@@ -32,9 +32,9 @@ const Hero = () => {
                       data-aos-duration="1500"
                       className='flex gap-2 text-headingColor mt-6 font-[500] text-[15px] leading-7 sm:pl-0 sm:pr-10'
                     >
-                    {/* <span>
+                    <span>
                         <i class="ri-apps-2-line"></i>
-                    </span>     */}
+                    </span>    
                      cloud Developer/architect, armed with a BScIT degree from JKUAT and a Moringa School alumni, 
                      currently harnessing the power of AWS Cloud at ALX Africa. Passionate about crafting 
                      top-notch web applications, embracing industry trends, and collaborating to achieve 

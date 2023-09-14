@@ -7,57 +7,57 @@ import portfolioImg06 from "../images/desktop-preview.jpg";
 import portfolioImg07 from "../images/intelli.jpg";
 
 const portfolios = [
-  // {
-  //   id: "01",
-  //   imgUrl: portfolioImg01,
-  //   category: "Web Design",
-  //   title: "Beauty Bliss",
-  //   description:
-  //   " Beauty Bliss is an e-commerce beauty shop powered by Rails API and React. It offers a wide range of products, including skincare, makeup, and haircare. With an admin section for inventory management and order tracking, it ensures efficient operations. Beauty Bliss provides secure transactions and a personalized user experience for seamless shopping.",
-  //   technologies: ["React", "Tailwind css", "Rails", "Postgresql"],
-  //   siteUrl: "https://beauty-bliss-ul2a.vercel.app/",
-  // },
-  // {
-  //   id: "02",
-  //   imgUrl: portfolioImg02,
-  //   category: "web design",
-  //   title: "Meme Generator",
-  //   description:
-  //     "Haha Hub is a web application that brings laughter to users by allowing them to create and view memes. It serves as a platform where people can go to have a good laugh. This Rails and React-based meme generator app was developed as a project during Moringa School. With a combination of React, Tailwind CSS, Rails, and SQLite, Haha Hub offers an entertaining and interactive experience for meme enthusiasts.",
-  //   technologies: ["React", "Tailwind css", "Rails", "SQLite"],
-  //   siteUrl: "https://haha-hub.vercel.app/",
-  // },
-  // {
-  //   id: "03",
-  //   imgUrl: portfolioImg03,
-  //   category: "web design",
-  //   title: "Library app",
-  //   description:
-  //     "The Library App is a React-based web application that utilizes the Google Books API. It offers a user-friendly interface for browsing and exploring a wide collection of books. With features like search, book details, ratings, and a reading list, it enhances the book browsing experience. The app is designed with React and styled using Tailwind CSS. ",
-  //   technologies: ["React", "Tailwind css", "api"],
-  //   siteUrl: "https://read-riot.vercel.app/",
-  // },
-  // {
-  //   id: "04",
-  //   imgUrl: portfolioImg04,
-  //   category: "Web Design",
-  //   title: "blog page",
-  //   description:
-  //     "The Blog Page is a web application that combines Ruby and React. It offers a user-friendly interface for sharing and reading articles. With features like categories, tags, comments, and analytics, it enhances the reading and writing experience. The application utilizes React and Tailwind CSS for a visually appealing design",
-  //   technologies: ["React", "Tailwind css", "Ruby", "SQLITE", "Sinatra"],
-  //   siteUrl: "https://article254.vercel.app/",
-  // },
   {
-    id: "05",
-    imgUrl: portfolioImg07,
-    category: "Mobile Design",
-    title: "Intellidrop: Transforming ASAL Agriculture",
-    description: `At ALX, I spearheaded Intellidrop, a groundbreaking mobile design venture aimed at transforming agriculture in Kenya's Arid and Semi-Arid Lands (ASAL). `,
-    technologies: ["UI/UX Design", "Figma"],
-    siteUrl: "https://intellidrop-demo.example.com",
-   slideDeckUrl: "https://docs.google.com/presentation/d/1Ym9ZKqf49XNl3fusW3_dVBvAXr4VWDPH/edit#slide=id.g25956dbe3e0_0_5",
-    videoPresentationUrl: "https://www.youtube.com/watch?v=0SJyrpwlViU" 
-  },    
+    id: "01",
+    imgUrl: portfolioImg01,
+    category: "Web Design",
+    title: "Beauty Bliss",
+    description:
+    " Beauty Bliss is an e-commerce beauty shop powered by Rails API and React. It offers a wide range of products, including skincare, makeup, and haircare. With an admin section for inventory management and order tracking, it ensures efficient operations. Beauty Bliss provides secure transactions and a personalized user experience for seamless shopping.",
+    technologies: ["React", "Tailwind css", "Rails", "Postgresql"],
+    siteUrl: "https://beauty-bliss-ul2a.vercel.app/",
+  },
+  {
+    id: "02",
+    imgUrl: portfolioImg02,
+    category: "web design",
+    title: "Meme Generator",
+    description:
+      "Haha Hub is a web application that brings laughter to users by allowing them to create and view memes. It serves as a platform where people can go to have a good laugh. This Rails and React-based meme generator app was developed as a project during Moringa School. With a combination of React, Tailwind CSS, Rails, and SQLite, Haha Hub offers an entertaining and interactive experience for meme enthusiasts.",
+    technologies: ["React", "Tailwind css", "Rails", "SQLite"],
+    siteUrl: "https://haha-hub.vercel.app/",
+  },
+  {
+    id: "03",
+    imgUrl: portfolioImg03,
+    category: "web design",
+    title: "Library app",
+    description:
+      "The Library App is a React-based web application that utilizes the Google Books API. It offers a user-friendly interface for browsing and exploring a wide collection of books. With features like search, book details, ratings, and a reading list, it enhances the book browsing experience. The app is designed with React and styled using Tailwind CSS. ",
+    technologies: ["React", "Tailwind css", "api"],
+    siteUrl: "https://read-riot.vercel.app/",
+  },
+  {
+    id: "04",
+    imgUrl: portfolioImg04,
+    category: "Web Design",
+    title: "blog page",
+    description:
+      "The Blog Page is a web application that combines Ruby and React. It offers a user-friendly interface for sharing and reading articles. With features like categories, tags, comments, and analytics, it enhances the reading and writing experience. The application utilizes React and Tailwind CSS for a visually appealing design",
+    technologies: ["React", "Tailwind css", "Ruby", "SQLITE", "Sinatra"],
+    siteUrl: "https://article254.vercel.app/",
+  },
+  // {
+  //   id: "05",
+  //   imgUrl: portfolioImg07,
+  //   category: "Mobile Design",
+  //   title: "Intellidrop: Transforming ASAL Agriculture",
+  //   description: `At ALX, I spearheaded Intellidrop, a groundbreaking mobile design venture aimed at transforming agriculture in Kenya's Arid and Semi-Arid Lands (ASAL). `,
+  //   technologies: ["UI/UX Design", "Figma"],
+  //   siteUrl: "https://intellidrop-demo.example.com",
+  //  slideDeckUrl: "https://docs.google.com/presentation/d/1Ym9ZKqf49XNl3fusW3_dVBvAXr4VWDPH/edit#slide=id.g25956dbe3e0_0_5",
+  //   videoPresentationUrl: "https://www.youtube.com/watch?v=0SJyrpwlViU" 
+  // },    
 
   // {
   //   id: "06",
