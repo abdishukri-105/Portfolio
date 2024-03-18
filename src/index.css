@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer base {
+    body {
+      /* @apply  text-base leading-relaxed; */
+    }
+    .section {
+      @apply py-[40px] lg:py-[40px];
+    }
+    /* .title {
+      @apply text-2xl lg:text-[40px] leading-tight font-semibold mb-4;
+    }  */
+    /* .subtitle {
+      @apply text-[18px] lg:text-[20px] leading-relaxed mb-5 lg:mb-9;
+    }
+    .borderCard{
+      @apply border hover:border-accent rounded-[18px] transition;
+    }
+    .buttonstyle {
+      @apply  */
+    /* } */
+  }
+  

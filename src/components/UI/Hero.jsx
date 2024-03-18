@@ -6,7 +6,7 @@ import CountUp from 'react-countup'
 
 const Hero = () => {
     return ( 
-      <section className='pt-0' id='about'>
+      <section className='pt-10 bg-teal-100 min-h-screen' id='about'>
         <div className='container pt-4'>
             <div className='md:flex items-center justify-between sm:flex-col md:flex-row'>
                 {/* ======= hero left content ======== */}
@@ -14,14 +14,14 @@ const Hero = () => {
                     <h5
                        data-aos="fade-right"
                        data-aos-duration="1500"
-                       className='text-headingColor font-[600] text-[16px]'
+                       className='text-headingColor font-[600] md:text-[26px] text-[20px]'
                     >
-                      Hello welcome
+                      Hello welcome,
                     </h5>
                     <h1 
                        data-aos="fade-up"
                        data-aos-duration="1500"
-                       className='text-headingColor font-[800] text-[1.8rem] sm:text-[40px] leading-[35px] sm:leading-[46px] mt-5'
+                       className='text-headingColor font-[800] text-[1.5rem] sm:text-[38px] leading-[35px] sm:leading-[46px] mt-5'
                        > I'm Abdishukri Mohamed <br />
                        Cloud Developer/Architect
                     </h1>
@@ -30,34 +30,30 @@ const Hero = () => {
                     <p 
                       data-aos="fade-left"
                       data-aos-duration="1500"
-                      className='flex gap-2 text-headingColor mt-6 font-[500] text-[15px] leading-7 sm:pl-0 sm:pr-10'
+                      className='flex gap-2 text-headingColor mt-6 font-[500] text-[15px] sm:text-[18px] leading-7 sm:pl-0 sm:pr-10'
                     >
                     <span>
                         <i class="ri-apps-2-line"></i>
                     </span>    
-                     cloud Developer/architect, armed with a BScIT degree from JKUAT and a Moringa School alumni, 
-                     currently harnessing the power of AWS Cloud at ALX Africa. Passionate about crafting 
-                     top-notch web applications, embracing industry trends, and collaborating to achieve 
-                     greatness in the cloud and development realms. Let's build something extraordinary together
-
+                      A cloud developer/architect armed with a BScIT degree, I'm deeply involved in harnessing the potential of AWS Cloud. My passion lies in crafting top-notch web applications and staying abreast of industry trends. Let's collaborate and build something extraordinary together.
                     </p>
 
                     <div 
-                        data-aos="fade-up"
-                        data-aos-duration="1800"
-                        data-aos-delay='200'
+                        // data-aos="fade-up"
+                        // data-aos-duration="1000"
+                        // data-aos-delay='200'
                         className='flex items-center gap-6 mt-7'
                     >
                     <a
                        href="#contact">
                        <button className='bg-primaryColor text-white font-[500]  flex items-center gap-2
-                       hover:bg-smallTextColor ease-in duration-300 py-2 px-4 rounded-[8px]'>
+                       hover:bg-smallTextColor ease-in duration-300 py-3 px-6 rounded-[8px]'>
                         <i class='ri-mail-line'></i>Hire me
                         </button> 
                     </a>   
                     <a
                       href='#portfolio'
-                      className='text-smallTextColor font-[600] text-[16px] border-b border-solid border-smallTextColor'>
+                      className='text-smallTextColor font-[600] text-[19px] border-b border-solid border-smallTextColor'>
                         see portfolio
                     </a>
                     </div>
@@ -67,29 +63,28 @@ const Hero = () => {
                       
                         </span>
                         <span>
-                            <a
-                             href='https://github.com/abdishukri-105' target='_blank' className='text-smallTextColor text-[20px] font-[600]'
+                            <a href='https://github.com/abdishukri-105' target='_blank' className='text-smallTextColor text-[30px] font-[600]'
                             >
                               <i class="ri-github-fill"></i>
                             </a>
                         </span>
                         <span>
                             <a
-                             href='https://www.linkedin.com/in/abdishukri-mohamed/' target='_blank' className='text-smallTextColor text-[20px] font-[600]'
+                             href='https://www.linkedin.com/in/abdishukri-mohamed/' target='_blank' className='text-smallTextColor text-[30px] font-[600]'
                             >
                               <i class="ri-linkedin-line"></i>
                             </a>
                         </span>
                         <span>
                             <a
-                             href='https://twitter.com/AbdishukriMoh18' target='_blank'  className='text-smallTextColor text-[20px] font-[600]'
+                             href='https://twitter.com/AbdishukriMoh18' target='_blank'  className='text-smallTextColor text-[30px] font-[600]'
                             >
                               <i class="ri-twitter-line"></i>
                             </a>
                         </span>
                         <span>
                             <a
-                             href='https://www.instagram.com/__abdishukri_/'  target='_blank' className='text-smallTextColor text-[20px] font-[600]'
+                             href='https://www.instagram.com/__abdishukri_/'  target='_blank' className='text-smallTextColor text-[30px] font-[600]'
                             >
                               <i class="ri-instagram-line"></i>
                             </a>
@@ -100,7 +95,7 @@ const Hero = () => {
                  {/* ======= hero img ======== */}
                  <div className='basis-1/3 mt-10 sm:mt-0'>
                      <figure className='flex  items-center justify-center'>
-                        <img className='rounded-full' src={shukri}></img>
+                        <img className='rounded-full ' src={shukri}></img>
                      </figure>
                  </div>
                 {/* ======= hero img end ======== */}
