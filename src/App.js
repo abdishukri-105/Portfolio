@@ -11,6 +11,7 @@ import About from "./components/UI/About";
 
 import { Analytics } from '@vercel/analytics/react'; 
 import Projects from "./components/UI/Projects";
+import FloatingIcons from "./components/UI/FloatingIcons";
 
 function App() {
   useEffect(() => {
@@ -22,6 +23,7 @@ function App() {
   <Header/>
   <main>
    <Hero />
+   <FloatingIcons />
    {/* <About /> */}
    <Services />
    <Projects />
