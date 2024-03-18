@@ -9,7 +9,7 @@ import Portfolio from "./components/UI/portfolio";
 import Contact from "./components/UI/Contact";
 import About from "./components/UI/About";
 
-
+import { Analytics } from '@vercel/analytics/react'; 
 
 function App() {
   useEffect(() => {
@@ -17,6 +17,7 @@ function App() {
   }, []);
 
   return<>
+   <Analytics /> 
   <Header/>
   <main>
    <Hero />
