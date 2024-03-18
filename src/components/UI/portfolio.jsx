@@ -2,6 +2,7 @@ import data from "../../assets/data/portfolioData"
 import {useState, useEffect} from "react"
 import Modal from "./Modal"
 
+
 const Portfolio = () => {
 
     const [nextItems, setNextItems] = useState(6)

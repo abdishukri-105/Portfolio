@@ -10,6 +10,7 @@ import Contact from "./components/UI/Contact";
 import About from "./components/UI/About";
 
 import { Analytics } from '@vercel/analytics/react'; 
+import Projects from "./components/UI/Projects";
 
 function App() {
   useEffect(() => {
@@ -23,7 +24,8 @@ function App() {
    <Hero />
    {/* <About /> */}
    <Services />
-   <Portfolio />
+   <Projects />
+   {/* <Portfolio /> */}
    <Contact />
    
   </main>

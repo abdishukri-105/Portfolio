@@ -6,6 +6,9 @@ import portfolioImg05 from "../images/loops.jpg";
 import portfolioImg06 from "../images/desktop-preview.jpg";
 import portfolioImg07 from "../images/intelli.jpg";
 
+
+
+
 const portfolios = [
   {
     id: "01",
@@ -13,7 +16,7 @@ const portfolios = [
     category: "Web Design",
     title: "Beauty Bliss",
     description:
-    " Beauty Bliss is an e-commerce beauty shop powered by Rails API and React. It offers a wide range of products, including skincare, makeup, and haircare. With an admin section for inventory management and order tracking, it ensures efficient operations. Beauty Bliss provides secure transactions and a personalized user experience for seamless shopping.",
+    " Beauty Bliss is an e-commerce beauty shop powered by Rails API and React. It offers a wide range of products, including skincare, makeup, and haircare. With an admin section for inventory management and order tracking, it ensures efficient operations.",
     technologies: ["React", "Tailwind css", "Rails", "Postgresql"],
     siteUrl: "https://beauty-bliss-ul2a.vercel.app/",
   },
@@ -23,7 +26,7 @@ const portfolios = [
     category: "web design",
     title: "Meme Generator",
     description:
-      "Haha Hub is a web application that brings laughter to users by allowing them to create and view memes. It serves as a platform where people can go to have a good laugh. This Rails and React-based meme generator app was developed as a project during Moringa School. With a combination of React, Tailwind CSS, Rails, and SQLite, Haha Hub offers an entertaining and interactive experience for meme enthusiasts.",
+      "Haha Hub is a web application that brings laughter to users by allowing them to create and view memes. It serves as a platform where people can go to have a good laugh. This Rails and React-based meme generator app was developed as a project during Moringa School.",
     technologies: ["React", "Tailwind css", "Rails", "SQLite"],
     siteUrl: "https://haha-hub.vercel.app/",
   },
@@ -33,7 +36,7 @@ const portfolios = [
     category: "web design",
     title: "Library app",
     description:
-      "The Library App is a React-based web application that utilizes the Google Books API. It offers a user-friendly interface for browsing and exploring a wide collection of books. With features like search, book details, ratings, and a reading list, it enhances the book browsing experience. The app is designed with React and styled using Tailwind CSS. ",
+      "The Library App is a React-based web application that utilizes the Google Books API. It offers a user-friendly interface for browsing and exploring a wide collection of books. With features like search, book details, ratings, and a reading list, it enhances the book browsing experience. ",
     technologies: ["React", "Tailwind css", "api"],
     siteUrl: "https://read-riot.vercel.app/",
   },
@@ -43,7 +46,7 @@ const portfolios = [
     category: "Web Design",
     title: "blog page",
     description:
-      "The Blog Page is a web application that combines Ruby and React. It offers a user-friendly interface for sharing and reading articles. With features like categories, tags, comments, and analytics, it enhances the reading and writing experience. The application utilizes React and Tailwind CSS for a visually appealing design",
+      "The Blog Page is a web application that combines Ruby and React. It offers a user-friendly interface for sharing and reading articles. With features like categories, tags, comments, and analytics, it enhances the reading and writing experience.",
     technologies: ["React", "Tailwind css", "Ruby", "SQLITE", "Sinatra"],
     siteUrl: "https://article254.vercel.app/",
   },
