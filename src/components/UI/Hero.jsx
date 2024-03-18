@@ -6,7 +6,7 @@ import CountUp from 'react-countup'
 
 const Hero = () => {
     return ( 
-      <section className='pt-16  min-h-screen' id='about'>
+      <section className='pt-16 bg-yelow-900 min-h-screen' id='about'>
         <div className='container pt-4'>
             <div className='md:flex items-center justify-between sm:flex-col md:flex-row'>
                 {/* ======= hero left content ======== */}
@@ -35,7 +35,7 @@ const Hero = () => {
                     <span>
                         <i class="ri-apps-2-line"></i>
                     </span>    
-                      A cloud developer/architect armed with a BScIT degree, I'm deeply involved in harnessing the potential of AWS Cloud. My passion lies in crafting top-notch web applications and staying abreast of industry trends. Let's collaborate and build something extraordinary together.
+                      I'm a seasoned, certified cloud and software engineer, wielding the power of the cloud to craft high-performance web applications. My code is clean, secure, and optimized to dominate search engines.
                     </p>
 
                     <div 

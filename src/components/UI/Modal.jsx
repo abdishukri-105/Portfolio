@@ -6,8 +6,8 @@ const Modal = ({activeID, setShowModal}) => {
     const portfolio = portfolios.find(portfolio => portfolio.id === activeID);
 
     return (
-        <div className="w-full h-full fixed top-0 left-0 z-10 bg-headingColor bg-opacity-0 " >
-           <div className=" md:max-w-[600px] md:w-full sm:w-full absolute top-1/2 left-1/2 z-20 bg-white rounded-[8px] transform -translate-x-1/2 -translate-y-1/2 p-5">
+        <div className="w-full h-3/4 fixed top-0 left-0 z-10 bg-headingColor bg-opacity-0 " >
+           <div className=" md:max-w-[600px] md:w-full sm:w-full w-5/6 absolute top-1/2  left-1/2 z-20  rounded-[8px] transform -translate-x-1/2 -translate-y-1/4 p-5">
              <div>
                 <figure>
                     <img className="rounded-[8px]" src={portfolio.imgUrl} alt="" />

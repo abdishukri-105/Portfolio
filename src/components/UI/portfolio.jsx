@@ -39,8 +39,8 @@ const Portfolio = () => {
 
 
 
-    return <section id="portfolio">
-        <div className="container">
+    return <section className="bg-purpe-700 pb-20" id="portfolio">
+        <div className="container bg-geen-700 p-10 ">
 
             <div className="flex items-center justify-center flex-wrap">
                 <div className="mb-7 sm:mb-0">
