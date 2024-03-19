@@ -19,7 +19,7 @@ const Projects = () => {
             <div className="container flex justify-center">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {portfolios.map(portfolio => (
-                <div key={portfolio.id} className=" bg-teal-50 max-w-md mx-auto  shadow-lg rounded-lg overflow-hidden m-4">
+                <div key={portfolio.id} className="  max-w-md mx-auto  shadow-lg rounded-lg overflow-hidden m-4">
                     <img className="w-full  object-contain object-center" src={portfolio.imgUrl} alt={portfolio.title} />
                     <div className="p-4 ">
                         <h2 className="text-gray-900 font-bold text-xl mb-2">{portfolio.title}</h2>
