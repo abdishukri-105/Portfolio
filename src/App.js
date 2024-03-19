@@ -14,6 +14,10 @@ import Projects from "./components/UI/Projects";
 import FloatingIcons from "./components/UI/FloatingIcons";
 
 import Myservices from "./components/UI/Myservices"
+
+
+import { Helmet } from 'react-helmet-async';
+
 function App() {
   useEffect(() => {
     Aos.init();
@@ -21,11 +25,12 @@ function App() {
 
   return<>
    <Analytics /> 
-  <Header/>
+   <Header/>
   <main>
+   
    <Hero />
    <FloatingIcons />
-   {/* <About /> */}
+   <About />
    {/* <Services /> */}
    <Myservices />
    <Projects />
