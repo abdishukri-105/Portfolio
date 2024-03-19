@@ -13,6 +13,7 @@ import { Analytics } from '@vercel/analytics/react';
 import Projects from "./components/UI/Projects";
 import FloatingIcons from "./components/UI/FloatingIcons";
 
+import Myservices from "./components/UI/Myservices"
 function App() {
   useEffect(() => {
     Aos.init();
@@ -25,7 +26,8 @@ function App() {
    <Hero />
    <FloatingIcons />
    {/* <About /> */}
-   <Services />
+   {/* <Services /> */}
+   <Myservices />
    <Projects />
    {/* <Portfolio /> */}
    <Contact />

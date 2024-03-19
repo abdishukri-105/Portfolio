@@ -4,11 +4,11 @@ const About = () => {
     return (
         <>
         <h2 className="text-headingColor font-[800] text-[2.4rem]  text-center">
-        Elevator pitch
+          Elevator pitch
        </h2>
         <div className="flex justify-center items-center h-screen "  data-aos="fade-right"
-        data-aos-duration="1500"> 
-            <div className="w-3/4 p-6 bg-primaryColor rounded-lg shadow-sm">
+         data-aos-duration="1500"> 
+        <div className="w-3/4 p-6 bg-primaryColor rounded-lg shadow-sm">
                
 
             <div className="prose text-white text-[15px] font-[500]">

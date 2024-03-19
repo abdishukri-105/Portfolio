@@ -8,18 +8,19 @@ import appsImg from '../../assets/images/apps.png'
 
 const Services = () => {
     return ( 
-        <section id="services" className="">
-            <div className="container lg:pt-5">
-                <div className="text-center">
+       
+        <section id="services" className="pt-20 ">
+            <div className="container mx-auto  lg:pt-5">
+                <div className="text-center  ">
                     <h2 className="text-headingColor font-[800] text-[2.4rem] mb-5">
                         services 
                     </h2>
-                    <p className="lg:max-w-[600px] lg:mx-auto text-headingColor font-[500] text-[16px] leading-7">
+                    <p className="lg:max-w-[600px]  lg:mx-auto text-headingColor font-[500] text-[16px] leading-7">
                          I deliver quality products with effective communication and strong time management skills. Explore how my expertise can benefit your projects
                     </p>
                 </div>
 
-                <div className="flex  p-4 sm:p-0 flex-col justify-center sm:py-12">
+                <div className="flex flex-col   justify-center sm:py-12">
                     <div className="w-full  py-3 sm:max-w-xl sm:mx-auto sm:px-0">
                          <div className="relative  text-gray-700 antialiased text-sm font-semibold">
                             {/* ======= vertical line through the middle ======== */}
@@ -27,7 +28,7 @@ const Services = () => {
                              -translate-x-1/2"></div>
                              
                              {/* ====== left card ======= */}
-                             <div className="mt-6 sm:mt-0 sm:mb-12">
+                             <div className="mt-6  sm:mt-0 sm:mb-12">
                                 <div className="flex items-center flex-col sm:flex-row">
 
                                     <div className="flex justify-start w-full mx-auto items-center">
@@ -52,7 +53,7 @@ const Services = () => {
 
                              {/* ====== right card ===== */}
 
-                             <div className="mt-6 sm:mt-0 sm:mb-12">
+                             <div className="mt-6  sm:mt-0 sm:mb-12">
                                 <div className="flex items-center flex-col sm:flex-row">
 
                                     <div className="flex justify-end w-full mx-auto items-center">
@@ -77,7 +78,7 @@ const Services = () => {
 
                              
                              {/* ====== left card ======= */}
-                             <div className="mt-6 sm:mt-0 sm:mb-12">
+                             <div className="mt-6 w- sm:mt-0 sm:mb-12">
                                 <div className="flex items-center flex-col sm:flex-row">
 
                                     <div className="flex justify-start w-full mx-auto items-center">
@@ -86,7 +87,7 @@ const Services = () => {
                                                 <h3 className="text-primaryColor font-[700] mb-3 group-hover:text-white group-hover:font-[600] text-2xl">UX/UI</h3> 
 
                                                 <p className="text-[15px] text-smallTextColor group-hover:text-white group-hover:font-[500] ">
-                                                I create intuitive and visually appealing user experiences that captivate and engage your audience. Through thoughtful design and seamless interactions, I enhance the usability and aesthetics of your website or application.
+                                                   I create intuitive and visually appealing user experiences that captivate and engage your audience. Through thoughtful design and seamless interactions, I enhance the usability and aesthetics of your website or application.
                                                 </p>
                                             </div>
                                         </div>
@@ -102,7 +103,7 @@ const Services = () => {
 
                                   {/* ====== right card ===== */}
 
-                                  <div className="mt-6 sm:mt-0 sm:mb-12">
+                            <div className="mt-6 sm:mt-0 sm:mb-12">
                                 <div className="flex items-center flex-col sm:flex-row">
 
                                     <div className="flex  justify-end w-full mx-auto items-center">
@@ -118,7 +119,6 @@ const Services = () => {
                                                 I specialize in creating robust and user-friendly solutions that harness the power of the AWS cloud to deliver seamless experiences across devices. Whether it's designing serverless architectures, optimizing cloud infrastructure, or implementing cloud-native solutions, I ensure that your applications are well-prepared to meet the demands of today's digital landscape.
                                             </p>
                                         </div>
-
                                         </div>
                                     </div>
 
@@ -129,9 +129,6 @@ const Services = () => {
                                     </div>
                                 </div>
                              </div>
-
-                            
-
                         </div> 
                     </div>
                 </div>
@@ -139,6 +136,7 @@ const Services = () => {
 
             </div>
         </section>
+      
      );
 }
  
