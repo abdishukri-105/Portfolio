@@ -35,26 +35,47 @@ const infoData = [
 
 const qualificationData = [
   {
+    title: 'education',
+    data: [
+      {
+        university: 'ALX',
+        qualification: 'AWS Cloud Computing',
+        years: '2023 - 2024',
+      },
+      {
+        university: 'MORINGA SCHOOL',
+        qualification: 'Software Engineering ',
+        years: '2012 - 2023',
+      },
+      {
+        university: 'JKUAT',
+        qualification: 'Bsc. in Information Technology',
+        years: '2018 - 2022',
+      },
+    ],
+  },
+  {
     title: 'experience',
     data: [
       {
-        company: 'ABC Inc.',
+        company: 'freelance',
         role: 'Software Engineer',
-        years: '2018 - 2020',
+        years: '2023 - Present',
       },
       {
-        company: 'XYZ Corporation',
-        role: 'Senior Developer',
+        company: 'Safeline Security Solution',
+        role: 'IT Officer',
         years: '2020 - 2022',
       },
       {
-        company: 'Tech Innovators',
-        role: 'Lead Developer',
-        years: '2022 - Present',
+        company: 'Mandera County Assembly',
+        role: 'ICT Intern',
+        years: '2020 - 2020',
       },
     ],
   },
 ];
+
 
 const skillsData = [
   {
@@ -166,25 +187,74 @@ const About = () => {
                   </div>
                 </div>
               )}
+             
+             {/* qualifications */}
 
 
-
-                {activeTab === 'qualifications' && (
-                  <div>
-                    <h3 className='text-xl font-semibold mb-4'>Qualifications</h3>
-                    {/* Experience */}
-                    <div>
-                      <h4 className='font-semibold mb-2'>Experience</h4>
-                      <ul>
-                        {qualificationData[0].data.map((item, index) => (
-                          <li key={index} className='mb-2'>
-                            {item.company} - {item.role} ({item.years})
-                          </li>
+             {activeTab === 'qualifications' && (
+                <div>
+                  <h3 className='text-2xl font-bold mb-6 text-headingColor  text-center xl:text-left'>My Awesome Journey</h3>
+                  {/* experience & education wrapper */}
+                  <div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
+                    {/* experience */}
+                    <div className='flex flex-col gap-6'>
+                      <div className='flex items-center gap-4 text-primary'>
+                        <FaBriefcase size={28} />
+                        <h4 className='capitalize text-headingColor font-medium'>Experience</h4>
+                      </div>
+                      {/* experience list */}
+                      <div className='flex flex-col gap-8'>
+                        {qualificationData.find(item => item.title === 'experience').data.map((item, index) => (
+                          <div className='flex items-center gap-4' key={index}>
+                            <div className='h-1 w-1 bg-teal-300'></div>
+                            <div>
+                              <div className='font-semibold mb-2 text-xl text-smallTextColor leading-none'>
+                                {item.company}
+                              </div>
+                              <div className='text-lg mb-2 leading-none text-gray-900'>
+                                {item.role}
+                              </div>
+                              <div className='text-base font-medium'>{item.years}</div>
+                            </div>
+                          </div>
                         ))}
-                      </ul>
+                      </div>
+                    </div>
+                    {/* education */}
+                    <div className='flex flex-col gap-6'>
+                      <div className='flex items-center gap-4 text-primary'>
+                        <FaGraduationCap size={28} />
+                        <h4 className='capitalize text-headingColor font-medium'>Education</h4>
+                      </div>
+                      {/* education list */}
+                      <div className='flex flex-col gap-8'>
+                        {qualificationData.find(item => item.title === 'education').data.map((item, index) => (
+                          <div className='flex items-center gap-4' key={index}>
+                            
+                            
+                              <div className='h-1 w-1 bg-teal-300'></div>
+                          
+                            <div>
+                              <div className='font-bold mb-2 text-smallTextColor text-xl leading-none'>
+                                {item.university}
+                              </div>
+                              <div className='text-lg mb-2 leading-none '>
+                                {item.qualification}
+                              </div>
+                              <div className='text-base  font-medium'>{item.years}</div>
+                            </div>
+                          </div>
+                        ))}
+                      </div>
                     </div>
                   </div>
-                )}
+                </div>
+              )}
+
+
+            {/* skills */}
+
+
                {activeTab === 'skills' && (
                   <div>
                     <h3 className='text-xl font-semibold mb-4'>Skills</h3>
