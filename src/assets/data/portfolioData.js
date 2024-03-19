@@ -2,16 +2,37 @@ import portfolioImg01 from "../images/Beautybliss.png";
 import portfolioImg02 from "../images/HAHA-HUB.png";
 import portfolioImg03 from "../images/read riot.png";
 import portfolioImg04 from "../images/article254.png";
+import portfolioImg08 from "../images/osam.png";
 import portfolioImg05 from "../images/loops.jpg";
 import portfolioImg06 from "../images/desktop-preview.jpg";
 import portfolioImg07 from "../images/intelli.jpg";
 
-
+import portfolioImg09 from "../images/misky.png";
 
 
 const portfolios = [
   {
     id: "01",
+    imgUrl: portfolioImg09,
+    category: "Web Design",
+    title: "Misky Nur ",
+    description:
+    "Designed a comprehensive online platform for Misky Nur Abdullahi, celebrated author/poet/advocate. Seamlessly integrates her personal brand, literary works, foundation activities, &  Podcast Centralizes her multifaceted work, empowering her to connect with a wider audience. ",
+    technologies: ["React", "Tailwind css", "Rails", "Postgresql"],
+    siteUrl: "https://misky-nur.vercel.app/",
+  },
+  {
+    id: "02",
+    imgUrl: portfolioImg08,
+    category: "Web Design",
+    title: "OSAM Cabinet and Hardware",
+    description:
+    " I took the initiative to design and develop a website for OSAM Cabinet and Hardware. This project aimed to create a strong online presence that effectively communicates their expertise in crafting and installing high-quality kitchen cabinets and doors.",
+    technologies: ["React", "Tailwind css", "Rails", "Postgresql"],
+    siteUrl: "https://osam-cabinet.vercel.app/",
+  },
+  {
+    id: "03",
     imgUrl: portfolioImg01,
     category: "Web Design",
     title: "Beauty Bliss",
@@ -21,7 +42,7 @@ const portfolios = [
     siteUrl: "https://beauty-bliss-ul2a.vercel.app/",
   },
   {
-    id: "02",
+    id: "04",
     imgUrl: portfolioImg02,
     category: "web design",
     title: "Meme Generator",
@@ -31,7 +52,7 @@ const portfolios = [
     siteUrl: "https://haha-hub.vercel.app/",
   },
   {
-    id: "03",
+    id: "05",
     imgUrl: portfolioImg03,
     category: "web design",
     title: "Library app",
@@ -41,7 +62,7 @@ const portfolios = [
     siteUrl: "https://read-riot.vercel.app/",
   },
   {
-    id: "04",
+    id: "06",
     imgUrl: portfolioImg04,
     category: "Web Design",
     title: "blog page",

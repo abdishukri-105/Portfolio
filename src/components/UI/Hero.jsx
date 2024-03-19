@@ -6,8 +6,8 @@ import CountUp from 'react-countup'
 
 const Hero = () => {
     return ( 
-      <section className='pt-16 bg-yelow-900 min-h-screen' id='about'>
-        <div className='container pt-4'>
+      <section className='md:pt-16 pt-4  bg-yelow-900 min-h-screen' id='about'>
+        <div className='container md:pt-4 pt-0'>
             <div className='md:flex items-center justify-between sm:flex-col md:flex-row'>
                 {/* ======= hero left content ======== */}
                 <div className='w-full md:basis-2/3'>
@@ -21,7 +21,7 @@ const Hero = () => {
                     <h1 
                        data-aos="fade-up"
                        data-aos-duration="1500"
-                       className='text-headingColor font-[800] text-[1.5rem] sm:text-[38px] leading-[35px] sm:leading-[46px] mt-5'
+                       className='text-headingColor font-[800] text-[1.5rem] sm:text-[38px] leading-[35px] sm:leading-[46px] mt-3'
                        > I'm Abdishukri Mohamed <br />
                        Cloud Developer/Architect
                     </h1>
