@@ -1,8 +1,28 @@
 import { useState } from 'react';
 import shukri from '../../assets/images/shukri.jpg';
 import { FaPhone, FaEnvelope, FaCalendarAlt, FaGraduationCap, FaBriefcase } from 'react-icons/fa';
-
+// import { SiVisualstudiocode, SiFigma, SiNotion, SiWordpress } from 'react-icons/si';
 import { AiOutlineUser } from 'react-icons/ai';
+// import { SiAmazonaws } from 'react-icons/si';
+import { 
+  SiVisualstudiocode,
+  SiFigma,
+  SiNotion,
+  SiWordpress,
+  SiGit,
+  SiDocker,
+  SiKubernetes,
+  SiAmazonaws,
+  SiReact,
+  SiRedux,
+  SiBootstrap,
+  SiSass,
+  SiWebpack,
+  SiBabel,
+  SiTailwindcss,
+  
+} from 'react-icons/si';
+
 const infoData = [
   {
     icon: <AiOutlineUser size={20} />,
@@ -17,6 +37,7 @@ const infoData = [
   //   icon: <FaCalendarAlt size={20} />,
   //   text: 'Born on 10 Mar, 1998',
   // },
+  
   {
     icon: <FaGraduationCap size={20} />,
     text: 'Bachelor of Science in Information Technology ',
@@ -77,21 +98,29 @@ const qualificationData = [
 ];
 
 
-const skillsData = [
+
+
+
+
+const skillData = [
   {
     title: 'skills',
     data: [
       {
-        name: 'HTML, CSS',
+        category: "Frontend",
+        frontend: 'HTML, CSS, Javascript, React, Next, TailwindCSS, SASS',
       },
       {
-        name: 'Front-end Development',
+        category: "Backtend",
+        backend: 'Python, Javascript, Django, Ruby, Ruby on Rails, Next',
       },
       {
-        name: 'JavaScript, PHP',
+        category: "Cloud Skills",
+        cloud: 'AWS - AWS CCP  and SAA certified',
       },
       {
-        name: 'Back-end Development',
+        category: "Other skills",
+        others: 'SEO, IT support, UI/UX, DEVOPS',
       },
     ],
   },
@@ -99,20 +128,72 @@ const skillsData = [
     title: 'tools',
     data: [
       {
-        name: 'Tool 1',
+        icon: <SiVisualstudiocode />,
+        name: 'Visual Studio Code',
       },
       {
-        name: 'Tool 2',
+        icon: <SiFigma />,
+        name: 'Figma',
       },
       {
-        name: 'Tool 3',
+        icon: <SiNotion />,
+        name: 'Notion',
+      },
+      
+      {
+        icon: <SiGit />,
+        name: 'Git',
       },
       {
-        name: 'Tool 4',
+        icon: <SiDocker />,
+        name: 'Docker',
       },
+      {
+        icon: <SiKubernetes />,
+        name: 'Kubernetes',
+      },
+      {
+        icon: <SiAmazonaws />,
+        name: 'Amazon Web Services (AWS)',
+      },
+      {
+        icon: <SiReact />,
+        name: 'React',
+      },
+      {
+        icon: <SiRedux />,
+        name: 'Redux',
+      },
+      {
+        icon: <SiBootstrap />,
+        name: 'Bootstrap',
+      },
+      {
+        icon: <SiSass />,
+        name: 'Sass',
+      },
+      {
+        icon: <SiWebpack />,
+        name: 'Webpack',
+      },
+      {
+        icon: <SiBabel />,
+        name: 'Babel',
+      },
+      {
+        icon: <SiTailwindcss />,
+        name: 'Tailwind CSS',
+      },
+      // {
+      //   icon: <SiNextDotJs />,
+      //   name: 'Next.js',
+      // },
     ],
   },
 ];
+
+
+
 
 
 const About = () => {
@@ -121,9 +202,9 @@ const About = () => {
   return (
     <section className='xl:h-[860px]  pb-12 xl:py-6'>
       <div className='container mx-auto'>
-        <h2 className='section-title mb-8 xl:mb-16 text-center mx-auto'>
-          About me
-        </h2>
+          <h2 className="text-headingColor text-center mb-20 font-[800] text-[2.4rem] ">
+                About Me
+           </h2>
         <div className='flex flex-col gap-16 xl:flex-row'>
           {/* Image on the right */}
           <div className='flex-1'>
@@ -191,86 +272,110 @@ const About = () => {
              {/* qualifications */}
 
 
-             {activeTab === 'qualifications' && (
-                <div>
-                  <h3 className='text-2xl font-bold mb-6 text-headingColor  text-center xl:text-left'>My Awesome Journey</h3>
-                  {/* experience & education wrapper */}
-                  <div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
-                    {/* experience */}
-                    <div className='flex flex-col gap-6'>
-                      <div className='flex items-center gap-4 text-primary'>
-                        <FaBriefcase size={28} />
-                        <h4 className='capitalize text-headingColor font-medium'>Experience</h4>
+                {activeTab === 'qualifications' && (
+                    <div>
+                      <h3 className='text-2xl font-bold mb-6 text-headingColor  text-center xl:text-left'>My Awesome Journey</h3>
+                      {/* experience & education wrapper */}
+                      <div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
+                        {/* experience */}
+                        <div className='flex flex-col gap-6'>
+                          <div className='flex items-center gap-4 text-primary'>
+                            <FaBriefcase size={28} />
+                            <h4 className='capitalize text-headingColor font-medium'>Experience</h4>
+                          </div>
+                          {/* experience list */}
+                          <div className='flex flex-col gap-8'>
+                            {qualificationData.find(item => item.title === 'experience').data.map((item, index) => (
+                              <div className='flex items-center gap-4' key={index}>
+                                <div className='h-1 w-1 bg-teal-300'></div>
+                                <div>
+                                  <div className='font-semibold mb-2 text-xl text-smallTextColor leading-none'>
+                                    {item.company}
+                                  </div>
+                                  <div className='text-lg mb-2 leading-none text-gray-900'>
+                                    {item.role}
+                                  </div>
+                                  <div className='text-base font-medium'>{item.years}</div>
+                                </div>
+                              </div>
+                            ))}
+                          </div>
+                        </div>
+                        {/* education */}
+                        <div className='flex flex-col gap-6'>
+                          <div className='flex items-center gap-4 text-primary'>
+                            <FaGraduationCap size={28} />
+                            <h4 className='capitalize text-headingColor font-medium'>Education</h4>
+                          </div>
+                          {/* education list */}
+                          <div className='flex flex-col gap-8'>
+                            {qualificationData.find(item => item.title === 'education').data.map((item, index) => (
+                              <div className='flex items-center gap-4' key={index}>
+                                
+                                
+                                  <div className='h-1 w-1 bg-teal-300'></div>
+                              
+                                <div>
+                                  <div className='font-bold mb-2 text-smallTextColor text-xl leading-none'>
+                                    {item.university}
+                                  </div>
+                                  <div className='text-lg mb-2 leading-none '>
+                                    {item.qualification}
+                                  </div>
+                                  <div className='text-base  font-medium'>{item.years}</div>
+                                </div>
+                              </div>
+                            ))}
+                          </div>
+                        </div>
                       </div>
-                      {/* experience list */}
-                      <div className='flex flex-col gap-8'>
-                        {qualificationData.find(item => item.title === 'experience').data.map((item, index) => (
-                          <div className='flex items-center gap-4' key={index}>
-                            <div className='h-1 w-1 bg-teal-300'></div>
-                            <div>
-                              <div className='font-semibold mb-2 text-xl text-smallTextColor leading-none'>
-                                {item.company}
-                              </div>
-                              <div className='text-lg mb-2 leading-none text-gray-900'>
-                                {item.role}
-                              </div>
-                              <div className='text-base font-medium'>{item.years}</div>
+                    </div>
+                  )}
+
+
+                {/* skills */}
+
+
+                {activeTab === 'skills' && (
+                  <div className='text-center xl:text-left'>
+                    <h3 className='text-2xl text-headingColor font-bold mb-8'>What I Use Everyday</h3>
+                    {/* Skills */}
+                    <div className='mb-4'>
+                      <h4 className='text-xl font-semibold mb-2'>Skills</h4>
+                      <div className='border-b border-black mb-4'></div>
+                      {/* Skill list */}
+                      <div>
+                        {skillData.find(item => item.title === 'skills').data.map((item, index) => (
+                          <div className='flex p-1 gap-5 bg-rd-400'>
+                            <div className='font-bold text-teal-600 '> {item.category}:</div> 
+                            <div className='w- text-center mb-1  xl:text-left mx-auto xl:mx-0' key={index}>
+                                <div className='font-medium '> {item.frontend}</div>
+                              
+                              <div className='font-medium '> {item.backend}</div>
+                              <div className='font-medium '> {item.cloud}</div>
+                              <div className='font-medium '> {item.others}</div>
                             </div>
+                            
+                           </div>
+                        ))}
+                      </div>
+                    </div>
+                    {/* Tools */}
+                    <div>
+                      <h4 className='text-xl font-semibold mb-2 xl:text-left'>Tools</h4>
+                      <div className='border-b border-border mb-4'></div>
+                      {/* Tool list */}
+                      <div className='flex  flex-wrap justify-center xl:justify-start'>
+                        {skillData.find(item => item.title === 'tools').data.map((item, index) => (
+                          <div className='w-1/7 mb-10 px-4' key={index}>
+                            <div className='text-4xl text-tal-500'>{item.icon}</div>
                           </div>
                         ))}
                       </div>
                     </div>
-                    {/* education */}
-                    <div className='flex flex-col gap-6'>
-                      <div className='flex items-center gap-4 text-primary'>
-                        <FaGraduationCap size={28} />
-                        <h4 className='capitalize text-headingColor font-medium'>Education</h4>
-                      </div>
-                      {/* education list */}
-                      <div className='flex flex-col gap-8'>
-                        {qualificationData.find(item => item.title === 'education').data.map((item, index) => (
-                          <div className='flex items-center gap-4' key={index}>
-                            
-                            
-                              <div className='h-1 w-1 bg-teal-300'></div>
-                          
-                            <div>
-                              <div className='font-bold mb-2 text-smallTextColor text-xl leading-none'>
-                                {item.university}
-                              </div>
-                              <div className='text-lg mb-2 leading-none '>
-                                {item.qualification}
-                              </div>
-                              <div className='text-base  font-medium'>{item.years}</div>
-                            </div>
-                          </div>
-                        ))}
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              )}
-
-
-            {/* skills */}
-
-
-               {activeTab === 'skills' && (
-                  <div>
-                    <h3 className='text-xl font-semibold mb-4'>Skills</h3>
-                    <ul>
-                      {skillsData.find((item) => item.title === 'skills').data.map((skill, index) => (
-                        <li key={index}>{skill.name}</li>
-                      ))}
-                    </ul>
-                    <h3 className='text-xl font-semibold mt-8 mb-4'>Tools</h3>
-                    <ul>
-                      {skillsData.find((item) => item.title === 'tools').data.map((tool, index) => (
-                        <li key={index}>{tool.name}</li>
-                      ))}
-                    </ul>
                   </div>
                 )}
+
 
               </div>
             </div>
