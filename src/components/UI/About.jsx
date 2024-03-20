@@ -40,7 +40,7 @@ const infoData = [
   
   {
     icon: <FaGraduationCap size={20} />,
-    text: 'Bachelor of Science in Information Technology ',
+    text: 'Bsc. in Information Technology',
   },
   {
     icon: <FaBriefcase size={20} />,
@@ -115,11 +115,11 @@ const skillData = [
         backend: 'Python, Javascript, Django, Ruby, Ruby on Rails, Next',
       },
       {
-        category: "Cloud Skills",
+        category: "Cloud",
         cloud: 'AWS - AWS CCP  and SAA certified',
       },
       {
-        category: "Other skills",
+        category: "Other",
         others: 'SEO, IT support, UI/UX, DEVOPS',
       },
     ],
@@ -211,48 +211,51 @@ const About = () => {
             <img src={shukri} alt="shukri's photo" className='mx-auto xl:mx-0' />
           </div>
 
-          <div className='flex-1'>
-            <div className='w-full text-center grid grid-cols-3 max-w-[520px] border-2 border-black py-3 rounded-full'>
-              <div
-                className={`col-span-1 cursor-pointer ${
-                  activeTab === 'personal' ? 'text-teal-500 font-bold' : 'text-black font-bold'
-                }`}
-                onClick={() => setActiveTab('personal')}
-              >
-                Personal Info
-              </div>
-              <div
-                className={`col-span-1 cursor-pointer ${
-                  activeTab === 'qualifications' ? 'text-teal-500 font-bold' : 'text-black font-bold'
-                }`}
-                onClick={() => setActiveTab('qualifications')}
-              >
-                Qualifications
-              </div>
-              <div
-                className={`col-span-1 cursor-pointer ${
-                  activeTab === 'skills' ? 'text-teal-500 font-bold' : 'text-black font-bold'
-                }`}
-                onClick={() => setActiveTab('skills')}
-              >
-                Skills
-              </div>
+          <div className='flex-1 '>
+          <div className='w-full   text-center grid grid-cols-3 max-w-[520px] border-2 border-black  rounded-full'>
+            <div
+              className={`col-span-1 rounded-full py-3 cursor-pointer ${
+                activeTab === 'personal' ? 'font-bold bg-teal-500' : 'text-black font-bold'
+              }`}
+              onClick={() => setActiveTab('personal')}
+            >
+              Personal info
             </div>
-            <div className='text-lg pl-10  mt-12 xl:mt-8'>
+            <div
+              className={`col-span-1 rounded-full py-3 cursor-pointer ${
+                activeTab === 'qualifications' ? ' font-bold bg-teal-500' : 'text-black font-bold'
+              }`}
+              onClick={() => setActiveTab('qualifications')}
+            >
+              Qualifications
+            </div>
+            <div
+              className={`col-span-1 rounded-full py-3 cursor-pointer ${
+                activeTab === 'skills' ? ' font-bold bg-teal-500' : 'text-black font-bold'
+              }`}
+              onClick={() => setActiveTab('skills')}
+            >
+              Skills
+            </div>
+          </div>
+
+
+
+            <div className='text-lg  md:pl-10 pl-0  mt-12 xl:mt-8'>
               {/* tabs content */}
               <div>
               {activeTab === 'personal' && (
                 <div className='text-center xl:text-left'>
-                  <h3 className='text-2xl font-bold mb-2'>Unmatched Service Quality for Over 4 Years</h3>
-                  <p className='p-2 mb-4 max-w-xl mx-auto xl:mx-0'>
+                  <h3 className='text-2xl font-bold md:mb-2 mb-6'>Unmatched Service Quality for Over 4 Years</h3>
+                  <p className='md:p-2 md:mb-4 mb-8 max-w-xl mx-auto xl:mx-0'>
                     I specialize in crafting intuitive websites with
                     cutting-edge technology, delivering dynamic and engaging
                     user experiences.
                   </p>
                   {/* Icons and Text */}
-                  <div className='grid xl:grid-cols-2 gap-4 mb-12'>
+                  <div className='grid   xl:grid-cols-2  gap-4 mb-6'>
                     {infoData.map((item, index) => (
-                      <div key={index} className='flex items-center gap-x-4 mx-auto xl:mx-0'>
+                      <div key={index} className='flex gap-x-4  mx-aut xl:mx-0'>
                         {/* Render the icon */}
                         <div className='text-teal-500'>{item.icon}</div>
                         {/* Render the text */}
@@ -341,14 +344,14 @@ const About = () => {
                     <h3 className='text-2xl text-headingColor font-bold mb-8'>What I Use Everyday</h3>
                     {/* Skills */}
                     <div className='mb-4'>
-                      <h4 className='text-xl font-semibold mb-2'>Skills</h4>
+                      <h4 className='text-3xl text-left font-semibold mb-2'>Skills</h4>
                       <div className='border-b border-black mb-4'></div>
                       {/* Skill list */}
                       <div>
                         {skillData.find(item => item.title === 'skills').data.map((item, index) => (
-                          <div className='flex p-1 gap-5 bg-rd-400'>
+                          <div className='flex p-1 gap-5 '>
                             <div className='font-bold text-teal-600 '> {item.category}:</div> 
-                            <div className='w- text-center mb-1  xl:text-left mx-auto xl:mx-0' key={index}>
+                            <div className='w- text-center mb-3 md:mb-1  xl:text-left mx-auto xl:mx-0' key={index}>
                                 <div className='font-medium '> {item.frontend}</div>
                               
                               <div className='font-medium '> {item.backend}</div>
@@ -362,13 +365,13 @@ const About = () => {
                     </div>
                     {/* Tools */}
                     <div>
-                      <h4 className='text-xl font-semibold mb-2 xl:text-left'>Tools</h4>
-                      <div className='border-b border-border mb-4'></div>
+                      <h4 className='text-3xl  font-semibold mb-2 text-left'>Tools</h4>
+                      <div className='border-b border-black mb-4'></div>
                       {/* Tool list */}
-                      <div className='flex  flex-wrap justify-center xl:justify-start'>
+                      <div className='flex flex-wrap justify-center xl:justify-start'>
                         {skillData.find(item => item.title === 'tools').data.map((item, index) => (
                           <div className='w-1/7 mb-10 px-4' key={index}>
-                            <div className='text-4xl text-tal-500'>{item.icon}</div>
+                            <div className='text-4xl '>{item.icon}</div>
                           </div>
                         ))}
                       </div>
