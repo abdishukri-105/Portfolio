@@ -212,7 +212,7 @@ const About = () => {
          
             
           <div className='flex-1 order- mb-10 sm:mb-0 md:order-2 '>
-          <div className='w-full   text-center grid grid-cols-3 max-w-[520px] border border-black  rounded-full'>
+          <div className='w-full   text-center grid grid-cols-3 max-w-[520px] border border-gray-200  shadow-sm rounded-full'>
             <div
               className={`col-span-1 rounded-full py-3 cursor-pointer ${
                 activeTab === 'personal' ? 'font-bold bg-teal-500 transition duration-3000 ease-in-out' : 'text-black font-bold'
