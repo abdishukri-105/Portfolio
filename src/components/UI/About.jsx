@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import shukri from '../../assets/images/shukri.jpg';
+import shukri from '../../assets/images/shukri2.jpg';
 import { FaPhone, FaEnvelope, FaCalendarAlt, FaGraduationCap, FaBriefcase } from 'react-icons/fa';
 // import { SiVisualstudiocode, SiFigma, SiNotion, SiWordpress } from 'react-icons/si';
 import { AiOutlineUser } from 'react-icons/ai';
@@ -96,9 +96,6 @@ const qualificationData = [
     ],
   },
 ];
-
-
-
 
 
 
@@ -205,17 +202,20 @@ const About = () => {
           <h2 className="text-headingColor text-center mb-20 font-[800] text-[2.4rem] ">
                 About Me
            </h2>
-        <div className='flex flex-col gap-16 xl:flex-row'>
+        <div className='flex flex-col  gap-1 xl:flex-row'>
           {/* Image on the right */}
-          <div className='flex-1'>
+
+          <div className='flex-1  order-2 md:order-1   md:mr-20 md:mb-0 mb-8 rounded-full'>
             <img src={shukri} alt="shukri's photo" className='mx-auto xl:mx-0' />
           </div>
 
-          <div className='flex-1 '>
-          <div className='w-full   text-center grid grid-cols-3 max-w-[520px] border-2 border-black  rounded-full'>
+         
+            
+          <div className='flex-1 order- mb-10 sm:mb-0 md:order-2 '>
+          <div className='w-full   text-center grid grid-cols-3 max-w-[520px] border border-black  rounded-full'>
             <div
               className={`col-span-1 rounded-full py-3 cursor-pointer ${
-                activeTab === 'personal' ? 'font-bold bg-teal-500' : 'text-black font-bold'
+                activeTab === 'personal' ? 'font-bold bg-teal-500 transition duration-3000 ease-in-out' : 'text-black font-bold'
               }`}
               onClick={() => setActiveTab('personal')}
             >
@@ -223,7 +223,7 @@ const About = () => {
             </div>
             <div
               className={`col-span-1 rounded-full py-3 cursor-pointer ${
-                activeTab === 'qualifications' ? ' font-bold bg-teal-500' : 'text-black font-bold'
+                activeTab === 'qualifications' ? ' font-bold bg-teal-500 transition duration-3000 ease-in-out' : 'text-black font-bold'
               }`}
               onClick={() => setActiveTab('qualifications')}
             >
@@ -231,7 +231,7 @@ const About = () => {
             </div>
             <div
               className={`col-span-1 rounded-full py-3 cursor-pointer ${
-                activeTab === 'skills' ? ' font-bold bg-teal-500' : 'text-black font-bold'
+                activeTab === 'skills' ? ' font-bold bg-teal-500 transition duration-3000 ease-in-out' : 'text-black font-bold'
               }`}
               onClick={() => setActiveTab('skills')}
             >
@@ -284,7 +284,7 @@ const About = () => {
                         <div className='flex flex-col gap-6'>
                           <div className='flex items-center gap-4 text-primary'>
                             <FaBriefcase size={28} />
-                            <h4 className='capitalize text-headingColor font-medium'>Experience</h4>
+                            <h4 className='capitalize text-3xl underline text-headingColor font-medium'>Experience</h4>
                           </div>
                           {/* experience list */}
                           <div className='flex flex-col gap-8'>
@@ -307,8 +307,8 @@ const About = () => {
                         {/* education */}
                         <div className='flex flex-col gap-6'>
                           <div className='flex items-center gap-4 text-primary'>
-                            <FaGraduationCap size={28} />
-                            <h4 className='capitalize text-headingColor font-medium'>Education</h4>
+                            <FaGraduationCap size={28} /> 
+                            <h4 className='capitalize text-3xl underline text-headingColor font-medium'>Education</h4>
                           </div>
                           {/* education list */}
                           <div className='flex flex-col gap-8'>
