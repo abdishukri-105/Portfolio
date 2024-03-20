@@ -58,7 +58,10 @@ const Header = () => {
                    
                     <ul className="flex items-center gap-10">
                         <li>
-                            <a onClick={handleClick} className="text-smallTextColor font-[600]" href="#about">About</a>
+                            <a onClick={handleClick} className="text-smallTextColor font-[600]" href="#home"> Home </a>
+                        </li>
+                        <li>
+                            <a onClick={handleClick} className="text-smallTextColor font-[600]" href="#about"> About </a>
                         </li>
                         <li>
                             <a onClick={handleClick}  className="text-smallTextColor font-[600]" href="#services">Services</a>

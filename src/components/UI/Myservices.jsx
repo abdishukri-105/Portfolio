@@ -11,7 +11,7 @@ import appsImg from '../../assets/images/apps.png'
 
 const Process = () => {
     return ( 
-        <section id="process" className='section '>
+        <section id="services" className='section '>
             <div className=" mx-auto container  lg:pt-4">
                 <div className="text-center  ">
                     <h2 className="text-headingColor font-[800] text-[2.4rem] mb-5">

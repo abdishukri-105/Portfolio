@@ -197,7 +197,7 @@ const About = () => {
   const [activeTab, setActiveTab] = useState('personal');
 
   return (
-    <section className='xl:h-[860px]  pb-12 xl:py-6'>
+    <section id="about" className='xl:h-[860px]  pb-12 xl:py-6'>
       <div className='container mx-auto'>
           <h2 className="text-headingColor text-center mb-20 font-[800] text-[2.4rem] ">
                 About Me

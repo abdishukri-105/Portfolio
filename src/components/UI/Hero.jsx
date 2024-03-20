@@ -6,7 +6,7 @@ import CountUp from 'react-countup'
 
 const Hero = () => {
     return ( 
-      <section className='md:pt-16 pt-4  bg-yelow-900 min-h-screen' id='about'>
+      <section className='md:pt-16 pt-4   bg-yelow-900 min-h-screen' id='home'>
         <div className='container md:pt-4 pt-0'>
             <div className='md:flex items-center justify-between sm:flex-col md:flex-row'>
                 {/* ======= hero left content ======== */}
