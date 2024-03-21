@@ -24,8 +24,8 @@ const Projects = () => {
                     <div className="p-4 ">
                         <h2 className="text-gray-900 font-bold text-xl mb-2">{portfolio.title}</h2>
                         <p className="text-gray-700 text-base">{portfolio.description}</p>
-                        <div className="flex justify-between mt-4">
-                            <a href={portfolio.siteUrl} target='_blank' className="text-teal-600 hover:text-teal-600 font-semibold">Visit Website</a>
+                        <div className="flex group  justify-between mt-4">
+                            <a href={portfolio.siteUrl} target='_blank' className="text-teal-600 text-xl group-hover:underline group-focus:underline font-semibold">Visit Website</a>
                             {/* <span className="text-gray-600 text-sm">{portfolio.category}</span> */}
                         </div>
                     </div>

@@ -5,9 +5,10 @@ import portfolioImg04 from "../images/article254.png";
 import portfolioImg08 from "../images/osam.png";
 import portfolioImg05 from "../images/loops.jpg";
 import portfolioImg06 from "../images/desktop-preview.jpg";
-import portfolioImg07 from "../images/intelli.jpg";
 
+import portfolioImg07 from "../images/intelli.jpg";
 import portfolioImg09 from "../images/misky.png";
+import portfolioImg10 from "../images/albaqarah.png";
 
 
 const portfolios = [
@@ -23,6 +24,16 @@ const portfolios = [
   },
   {
     id: "02",
+    imgUrl: portfolioImg10,
+    category: "Web Design",
+    title: "Al Baqarah Farm ",
+    description:
+    "I was entrusted with developing a website for AlBaqarah Farm Limited, a leading supplier of premium fruits renowned for their commitment to quality and sustainable agricultural practices. The website serves as a cornerstone for their digital presence, catering to a global audience and fostering brand recognition in international markets.",
+    technologies: ["React", "Tailwind css", "Rails", "Postgresql"],
+    siteUrl: "https://albaqarahfarm.com/",
+  },
+  {
+    id: "03",
     imgUrl: portfolioImg08,
     category: "Web Design",
     title: "OSAM Cabinet and Hardware",
@@ -32,7 +43,7 @@ const portfolios = [
     siteUrl: "https://osam-cabinet.vercel.app/",
   },
   {
-    id: "03",
+    id: "04",
     imgUrl: portfolioImg01,
     category: "Web Design",
     title: "Beauty Bliss",
@@ -42,7 +53,7 @@ const portfolios = [
     siteUrl: "https://beauty-bliss-ul2a.vercel.app/",
   },
   {
-    id: "04",
+    id: "05",
     imgUrl: portfolioImg02,
     category: "web design",
     title: "Meme Generator",
@@ -52,7 +63,7 @@ const portfolios = [
     siteUrl: "https://haha-hub.vercel.app/",
   },
   {
-    id: "05",
+    id: "06",
     imgUrl: portfolioImg03,
     category: "web design",
     title: "Library app",
@@ -61,16 +72,16 @@ const portfolios = [
     technologies: ["React", "Tailwind css", "api"],
     siteUrl: "https://read-riot.vercel.app/",
   },
-  {
-    id: "06",
-    imgUrl: portfolioImg04,
-    category: "Web Design",
-    title: "blog page",
-    description:
-      "The Blog Page is a web application that combines Ruby and React. It offers a user-friendly interface for sharing and reading articles. With features like categories, tags, comments, and analytics, it enhances the reading and writing experience.",
-    technologies: ["React", "Tailwind css", "Ruby", "SQLITE", "Sinatra"],
-    siteUrl: "https://article254.vercel.app/",
-  },
+  // {
+  //   id: "06",
+  //   imgUrl: portfolioImg04,
+  //   category: "Web Design",
+  //   title: "blog page",
+  //   description:
+  //     "The Blog Page is a web application that combines Ruby and React. It offers a user-friendly interface for sharing and reading articles. With features like categories, tags, comments, and analytics, it enhances the reading and writing experience.",
+  //   technologies: ["React", "Tailwind css", "Ruby", "SQLITE", "Sinatra"],
+  //   siteUrl: "https://article254.vercel.app/",
+  // },
   // {
   //   id: "05",
   //   imgUrl: portfolioImg07,
