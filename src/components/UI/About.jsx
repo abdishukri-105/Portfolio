@@ -190,9 +190,6 @@ const skillData = [
 ];
 
 
-
-
-
 const About = () => {
   const [activeTab, setActiveTab] = useState('personal');
 

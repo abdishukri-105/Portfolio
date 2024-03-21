@@ -51,11 +51,10 @@ const Hero = () => {
                         <i class='ri-mail-line'></i>Hire me
                         </button> 
                     </a>   
-                    <a
-                      href='#portfolio'
-                      className='text-smallTextColor font-[600] text-[19px] border-b border-solid border-smallTextColor'>
+                    <a href='/path/to/your/resume.pdf' download className='text-smallTextColor font-[600] text-[19px] border-b border-solid border-smallTextColor'>
                         see portfolio
-                    </a>
+                        </a>
+
                     </div>
 
                     <div className='flex items-center gap-9 mt-6'>
@@ -95,7 +94,7 @@ const Hero = () => {
                  {/* ======= hero img ======== */}
                  <div className='basis-1/3 mt-10 sm:mt-0'>
                      <figure className='flex  items-center justify-center'>
-                        <img className='rounded-full ' src={shukri}></img>
+                        <img className='rounded-full '  alt='image of Abdishukri Mohamed' src={shukri}></img>
                      </figure>
                  </div>
                 {/* ======= hero img end ======== */}
