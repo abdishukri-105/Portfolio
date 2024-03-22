@@ -23,7 +23,7 @@ const Hero = () => {
                     //    data-aos-duration="1500"
                        className='text-headingColor font-[800] text-[1.5rem] sm:text-[38px] leading-[35px] sm:leading-[46px] mt-3'
                        > I'm Abdishukri Mohamed <br />
-                       Software Developer $ Cloud Architect
+                       Software Engineer $ Cloud Architect
                     </h1>
 
                   
