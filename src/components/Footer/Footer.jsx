@@ -23,40 +23,45 @@ const Footer = () => {
                 </div>
 
                 <div className="w-full sm:w-1/2">
-                    <p className="text-gray-300 leading-7 mt-4 sm:mt-0">
-                         Let's Innovate Together: As a Full Stack Developer with expertise in frontend, backend, and AWS Cloud, I'm ready to bring your ideas to life. Connect with me now to discuss your project and embark on a journey of innovation
-                    </p>
+    <p className="text-gray-300 leading-7 mt-4 sm:mt-0">
+        Let's Innovate Together: As a Full Stack Developer with expertise in frontend, backend, and AWS Cloud, I'm ready to bring your ideas to life. Connect with me now to discuss your project and embark on a journey of innovation
+    </p>
 
-                    <div className="flex items-center gap-4 flex-wrap md:gap-8 mt-10">
-                        <span className="text-gray-300 font-[600] text-[15px]">
-                            Follow Me:
-                        </span>
+    <div className="flex items-center gap-4 flex-wrap md:gap-8 mt-10">
+        <span className="text-gray-300 font-[600] text-[15px]">
+            Follow Me:
+        </span>
 
-                        <span className="w-[35px] h-[35px] bg-[#2b2d33] p-1  rounded-[50px] cursor-pointer text-center">
-                            <a href="https://github.com/abdishukri-105"  target='_blank' className="text-gray-300 font-[500] text-[18px]">
-                                <i class="ri-github-line"></i>
-                            </a>
-                        </span>
+        <span className="w-[35px] h-[35px] bg-[#2b2d33] p-1 rounded-[50px] cursor-pointer text-center">
+            <a href="https://github.com/abdishukri-105" target='_blank' rel="noopener noreferrer" className="text-gray-300 font-[500] text-[18px]" aria-label="GitHub">
+                <i class="ri-github-line"></i>
+                <span className="sr-only">GitHub</span>
+            </a>
+        </span>
 
-                        <span className="w-[35px] h-[35px] bg-[#2b2d33] p-1  rounded-[50px] cursor-pointer text-center">
-                            <a href="https://www.linkedin.com/in/abdishukri-mohamed/"   target='_blank' className="text-gray-300 font-[500] text-[18px]">
-                               <i class="ri-linkedin-line"></i>
-                            </a>
-                        </span>
+        <span className="w-[35px] h-[35px] bg-[#2b2d33] p-1 rounded-[50px] cursor-pointer text-center">
+            <a href="https://www.linkedin.com/in/abdishukri-mohamed/" target='_blank' rel="noopener noreferrer" className="text-gray-300 font-[500] text-[18px]" aria-label="LinkedIn">
+                <i class="ri-linkedin-line"></i>
+                <span className="sr-only">LinkedIn</span>
+            </a>
+        </span>
 
-                        <span className="w-[35px] h-[35px] bg-[#2b2d33] p-1  rounded-[50px] cursor-pointer text-center">
-                            <a href="https://twitter.com/AbdishukriMoh18"  target='_blank' className="text-gray-300 font-[500] text-[18px]">
-                               <i class="ri-twitter-line"></i>
-                            </a>
-                        </span>
+        <span className="w-[35px] h-[35px] bg-[#2b2d33] p-1 rounded-[50px] cursor-pointer text-center">
+            <a href="https://twitter.com/AbdishukriMoh18" target='_blank' rel="noopener noreferrer" className="text-gray-300 font-[500] text-[18px]" aria-label="Twitter">
+                <i class="ri-twitter-line"></i>
+                <span className="sr-only">Twitter</span>
+            </a>
+        </span>
 
-                        <span className="w-[35px] h-[35px] bg-[#2b2d33] p-1  rounded-[50px] cursor-pointer text-center">
-                            <a href="https://www.instagram.com/__abdishukri_/"  target='_blank' className="text-gray-300 font-[500] text-[18px]">
-                               <i class="ri-instagram-line"></i>
-                            </a>
-                        </span>
-                    </div>
-                </div>
+        <span className="w-[35px] h-[35px] bg-[#2b2d33] p-1 rounded-[50px] cursor-pointer text-center">
+            <a href="https://www.instagram.com/__abdishukri_/" target='_blank' rel="noopener noreferrer" className="text-gray-300 font-[500] text-[18px]" aria-label="Instagram">
+                <i class="ri-instagram-line"></i>
+                <span className="sr-only">Instagram</span>
+            </a>
+        </span>
+    </div>
+</div>
+
             </div>
             
             
