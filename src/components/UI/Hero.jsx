@@ -1,5 +1,5 @@
 import heroimg from '../../assets/images/hero.svg'
-import shukri from '../../assets/images/shukri.jpg'
+import shukri from '../../assets/images/shukri.webp'
 import shukri2 from '../../assets/images/shukri2.jpg'
 import CountUp from 'react-countup'
 
@@ -11,16 +11,16 @@ const Hero = () => {
             <div className='md:flex items-center justify-between sm:flex-col md:flex-row'>
                 {/* ======= hero left content ======== */}
                 <div className='w-full md:basis-2/3'>
-                    <h5
+                    <p
                        data-aos="fade-right"
                        data-aos-duration="1500"
                        className='text-headingColor font-[600] md:text-[26px] text-[20px]'
                     >
                       Hello welcome,
-                    </h5>
+                    </p>
                     <h1 
-                       data-aos="fade-up"
-                       data-aos-duration="1500"
+                    //    data-aos="fade-up"
+                    //    data-aos-duration="1500"
                        className='text-headingColor font-[800] text-[1.5rem] sm:text-[38px] leading-[35px] sm:leading-[46px] mt-3'
                        > I'm Abdishukri Mohamed <br />
                        Software Developer $ Cloud Architect
@@ -56,39 +56,34 @@ const Hero = () => {
                         </a>
 
                     </div>
-
                     <div className='flex items-center gap-9 mt-6'>
-                        <span className='text-smallTextColor text-[19px] font-[600]'> 
-                      
-                        </span>
+                        <span className='text-smallTextColor text-[19px] font-[600]'>Connect with me:</span>
                         <span>
-                            <a href='https://github.com/abdishukri-105' target='_blank' className='text-smallTextColor text-[30px] font-[600]'
-                            >
-                              <i class="ri-github-fill"></i>
+                            <a href='https://github.com/abdishukri-105' target='_blank' rel='noopener noreferrer' aria-label='GitHub' className='text-smallTextColor text-[30px] font-[600]'>
+                                <i class="ri-github-fill"></i>
+                                <span className='sr-only'>GitHub</span>
                             </a>
                         </span>
                         <span>
-                            <a
-                             href='https://www.linkedin.com/in/abdishukri-mohamed/' target='_blank' className='text-smallTextColor text-[30px] font-[600]'
-                            >
-                              <i class="ri-linkedin-line"></i>
+                            <a href='https://www.linkedin.com/in/abdishukri-mohamed/' target='_blank' rel='noopener noreferrer' aria-label='LinkedIn' className='text-smallTextColor text-[30px] font-[600]'>
+                                <i class="ri-linkedin-line"></i>
+                                <span className='sr-only'>LinkedIn</span>
                             </a>
                         </span>
                         <span>
-                            <a
-                             href='https://twitter.com/AbdishukriMoh18' target='_blank'  className='text-smallTextColor text-[30px] font-[600]'
-                            >
-                              <i class="ri-twitter-line"></i>
+                            <a href='https://twitter.com/AbdishukriMoh18' target='_blank' rel='noopener noreferrer' aria-label='Twitter' className='text-smallTextColor text-[30px] font-[600]'>
+                                <i class="ri-twitter-line"></i>
+                                <span className='sr-only'>Twitter</span>
                             </a>
                         </span>
                         <span>
-                            <a
-                             href='https://www.instagram.com/__abdishukri_/'  target='_blank' className='text-smallTextColor text-[30px] font-[600]'
-                            >
-                              <i class="ri-instagram-line"></i>
+                            <a href='https://www.instagram.com/__abdishukri_/' target='_blank' rel='noopener noreferrer' aria-label='Instagram' className='text-smallTextColor text-[30px] font-[600]'>
+                                <i class="ri-instagram-line"></i>
+                                <span className='sr-only'>Instagram</span>
                             </a>
                         </span> 
-                    </div> 
+                    </div>
+
                 </div>
                  {/* ======= hero left end ======== */}
                  {/* ======= hero img ======== */}
