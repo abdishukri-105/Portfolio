@@ -20,7 +20,7 @@ const portfolios = [
     description:
     "Designed a comprehensive online platform for Misky Nur Abdullahi, celebrated author/poet/advocate. Seamlessly integrates her personal brand, literary works, foundation activities, &  Podcast Centralizes her multifaceted work, empowering her to connect with a wider audience. ",
     technologies: ["React", "Tailwind css", "Rails", "Postgresql"],
-    siteUrl: "https://misky-nur.vercel.app/",
+    siteUrl: "https://miskynur.me",
   },
   {
     id: "02",
