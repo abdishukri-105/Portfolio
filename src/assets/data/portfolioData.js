@@ -1,6 +1,6 @@
 import portfolioImg01 from "../images/Beautybliss.png";
 import portfolioImg02 from "../images/HAHA-HUB.png";
-import portfolioImg03 from "../images/read riot.png";
+import portfolioImg03 from "../images/hanan.png";
 import portfolioImg04 from "../images/article254.png";
 import portfolioImg08 from "../images/osam.png";
 import portfolioImg05 from "../images/loops.jpg";
@@ -14,16 +14,34 @@ import portfolioImg10 from "../images/albaqarah.png";
 const portfolios = [
   {
     id: "01",
+    imgUrl: portfolioImg03,
+    category: "Web Design",
+    title: "Hanan collections",
+    description:
+    `Created a comprehensive online platform for Hanan Collections.
+      With a mobile-first design and seamless UX, the site empowers her to 
+      reach a broader audience. Integrated Paystack ensures smooth payments 
+      via cards and M-Pesa, while live Instagram and WhatsApp sections enhance
+       customer engagement and interaction.`,
+    technologies: ["React", "Tailwind css", "Rails", "Postgresql"],
+    siteUrl: "https://hanancollections.com",
+  },
+  {
+    id: "02",
     imgUrl: portfolioImg09,
     category: "Web Design",
     title: "Misky Nur ",
     description:
-    "Designed a comprehensive online platform for Misky Nur Abdullahi, celebrated author/poet/advocate. Seamlessly integrates her personal brand, literary works, foundation activities, &  Podcast Centralizes her multifaceted work, empowering her to connect with a wider audience. ",
+    `Designed a comprehensive online platform for Misky Nur Abdullahi,
+     a celebrated author, poet, and advocate. This seamless integration 
+     of her personal brand, literary works, foundation activities,
+     and podcast centralizes her diverse endeavors, empowering her
+      to connect with a wider audience.`,
     technologies: ["React", "Tailwind css", "Rails", "Postgresql"],
     siteUrl: "https://miskynur.me",
   },
   {
-    id: "02",
+    id: "03",
     imgUrl: portfolioImg10,
     category: "Web Design",
     title: "Al Baqarah Farm ",
@@ -33,7 +51,7 @@ const portfolios = [
     siteUrl: "https://albaqarahfarm.com/",
   },
   {
-    id: "03",
+    id: "04",
     imgUrl: portfolioImg08,
     category: "Web Design",
     title: "OSAM Cabinet and Hardware",
@@ -43,7 +61,7 @@ const portfolios = [
     siteUrl: "https://osam-cabinet.vercel.app/",
   },
   {
-    id: "04",
+    id: "05",
     imgUrl: portfolioImg01,
     category: "Web Design",
     title: "Beauty Bliss",
@@ -53,7 +71,7 @@ const portfolios = [
     siteUrl: "https://beauty-bliss-ul2a.vercel.app/",
   },
   {
-    id: "05",
+    id: "06",
     imgUrl: portfolioImg02,
     category: "web design",
     title: "Meme Generator",
@@ -62,16 +80,16 @@ const portfolios = [
     technologies: ["React", "Tailwind css", "Rails", "SQLite"],
     siteUrl: "https://haha-hub.vercel.app/",
   },
-  {
-    id: "06",
-    imgUrl: portfolioImg03,
-    category: "web design",
-    title: "Library app",
-    description:
-      "The Library App is a React-based web application that utilizes the Google Books API. It offers a user-friendly interface for browsing and exploring a wide collection of books. With features like search, book details, ratings, and a reading list, it enhances the book browsing experience. ",
-    technologies: ["React", "Tailwind css", "api"],
-    siteUrl: "https://read-riot.vercel.app/",
-  },
+  // {
+  //   id: "06",
+  //   imgUrl: portfolioImg03,
+  //   category: "web design",
+  //   title: "Library app",
+  //   description:
+  //     "The Library App is a React-based web application that utilizes the Google Books API. It offers a user-friendly interface for browsing and exploring a wide collection of books. With features like search, book details, ratings, and a reading list, it enhances the book browsing experience. ",
+  //   technologies: ["React", "Tailwind css", "api"],
+  //   siteUrl: "https://read-riot.vercel.app/",
+  // },
   // {
   //   id: "06",
   //   imgUrl: portfolioImg04,

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import shukri from '../../assets/images/shukri2.jpg';
+import shukri from '../../assets/images/aboutme.jpeg';
 import { FaPhone, FaEnvelope, FaCalendarAlt, FaGraduationCap, FaBriefcase } from 'react-icons/fa';
 // import { SiVisualstudiocode, SiFigma, SiNotion, SiWordpress } from 'react-icons/si';
 import { AiOutlineUser } from 'react-icons/ai';
@@ -203,6 +203,7 @@ const About = () => {
           {/* Image on the right */}
 
           <div className='flex-1  order-2 md:order-1   md:mr-20 md:mb-0 mb-8 rounded-full'>
+            
             <img src={shukri} alt="shukri's photo" className='mx-auto xl:mx-0' />
           </div>
 
