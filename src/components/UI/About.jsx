@@ -73,14 +73,19 @@ const qualificationData = [
   {
     title: "experience",
     data: [
+       {
+        company: "Transnep Insurance Brokers",
+        role: "Chief Technology Officer",
+        years: "2025 - Present",
+      },
       {
         company: "freelance",
         role: "Software Engineer",
-        years: "2023 - Present",
+        years: "2023 - 2025",
       },
       {
         company: "Safeline Security Solution",
-        role: "IT Officer",
+        role: "IT Support Engineer",
         years: "2020 - 2022",
       },
       {
